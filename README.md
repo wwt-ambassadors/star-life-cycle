@@ -1,8 +1,8 @@
 ![Build and Deploy](https://github.com/wwt-ambassadors/star-life-cycle/workflows/Build%20and%20Deploy/badge.svg?branch=master&event=push)
 
-# Bringing the Universe to America's Classroom Life Cycle of Stars Interactive
+# Life Cycle of Stars Interactive
 
-WWT-based interactive resource for exploring the life cycle of stars, created in collaboration with WGBH.
+WWT-based interactive resource for exploring the life cycle of stars, created in collaboration with WGBH for NASA's Bringing the Universe to America's Classroom project.
 
 http://projects.wwtambassadors.org/star-life-cycle/
 
