@@ -1,0 +1,50 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+
+
+
+/* Styling for Target Object modal pop-up */
+
+.modal-header{
+	padding: 0;
+}
+
+.modal-header .object_banner{
+	border-top-left-radius: .2rem;
+	border-top-right-radius: .2rem;
+}
+
+.modal-header{
+    background-color: #222;
+}
+
+.modal-header h3{
+    padding: 5px 10px;
+	color: #44FF44;
+	font-weight: bold;
+	font-size: 32px;
+}
+
+.modal img{
+    width: 100%;
+}
+
+.target_object_details{
+	color: #6C757D;
+	font-size: .7em;
+}
+
+.target_object_description{
+	color: black;
+	line-height: 24px;
+	font-size: 0.9em;
+}
+
+.modal .btn{
+    background-color: #41BEEC;
+    border-color: #41BEEC;
+    color: white;
+}
+
