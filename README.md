@@ -59,3 +59,6 @@ astronomers in North America.
 [1642446]: https://www.nsf.gov/awardsearch/showAward?AWD_ID=1642446
 [Gordon and Betty Moore Foundation]: https://www.moore.org/
 [Microsoft]: https://www.microsoft.com/
+
+## NASA Acknowledgment
+The material contained in this product is based upon work supported by NASA under cooperative agreement award No. NNX16AD71A. Any opinions, findings, and conclusions or recommendations expressed in this material are those of the author(s) and do not necessarily reflect the views of the National Aeronautics and Space Administration.
