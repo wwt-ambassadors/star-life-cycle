@@ -1,0 +1,298 @@
+/* Outermost wrapping elements */
+
+html {
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+	background-color: #111;
+	font-size: 1.375em;
+	font-family: 'Roboto', sans-serif;
+}
+
+body {
+	position: relative;
+	overflow: hidden;
+	margin: 0px;
+	padding: 0px;
+	color: #FFF;
+	height: 100%;
+	background-color: #111;
+	font-size: calc(11px + 0.6vw);
+}
+
+/* Generic element settings */
+
+p {
+  margin: 0px 0px 0.1rem 0px;
+}
+
+a, a:hover {
+  color: #FFF;
+}
+
+
+
+/* The containers, top and bottom */
+
+.top_container {
+    display: flex;
+    width: 90%;
+    min-height: 50%;
+    margin: auto;
+    padding-top: 30px;
+}
+
+.bottom_container {
+	padding: 0;
+	width: 90%;
+	margin: 0px 5%;
+}
+
+
+
+
+/* Thumbnails. Flexbox of tiles for each image */
+
+.thumb_gutter {
+    width: 260px;
+    min-width: 260px;
+}
+
+#destinationThumbs {
+}
+
+.thumbnail {
+	display: block;
+	margin: 0 20px 20px 0;
+	padding: 2px;
+	border-radius: 4px;
+	width: fit-content;
+}
+
+.thumbname {
+    padding: 0px 5px;
+    height: 18px;
+    background-color: black;
+    font-size: 11px;
+}
+.thumbnail:hover {
+    text-decoration: none;
+    color: #44FF44;
+}
+
+.border_black {
+	border: 2px solid #000;
+}
+
+.border_white {
+	border: 1px solid #FFF;
+}
+
+.border_green {
+	border: 2px solid #44ff44; /* considered #FBCB1F alternate color */
+}
+
+.text_green {
+	color: #44ff44;
+}
+
+#cmb_thumb {
+    margin-bottom: 0px;
+    width: 232px;
+    text-align: center;
+}
+
+#cmb_thumb .thumbname {
+    font-size: 13px;
+    height: auto;
+}
+
+
+
+/* WWT canvas */
+
+#wwtcanvas {
+	width: 90%;  /* note: overridden in script.js */
+	height: 100%;  /* note: overridden in script.js */
+	margin: auto;
+	border: solid 1px #333;
+	position: relative;
+	box-sizing: content-box;
+}
+
+#page_title {
+	position: absolute;
+	top: 30px;
+	right: 0px;
+    padding: 10px 30px;
+    background-color: black;
+    color: #44ff44;
+    opacity: .80;
+}
+
+#wwtcanvas h1 {
+	margin: 0;
+    border-right: 3px solid #44ff44;
+	font-size: calc(12px + 1vw); 
+	font-weight: 700;
+	user-select: none;
+	-webkit-user-select: none;
+}
+
+#reset_target {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    font-family: "Font Awesome 5 Free";
+    color: #41BEECC0;
+    font-size: 1.25em;
+    display: none;
+}
+
+#reset_target:hover{
+    color: #41BEEC;
+}
+
+#zoom_pan_container{
+	position: absolute;
+	bottom: 20px;
+	width: 100%;
+}
+
+#zoom_pan_instrux {
+	width: 600px;
+    margin: 0 auto;
+	text-align: center;
+	font-size: 0.8rem;
+	color: #EEEEEECC;
+    background-color: #00000066;
+    border-radius: 25px;
+}
+
+
+
+
+/* Target Descriptions */
+
+#description_box {
+	position: relative;
+	margin-top: 20px;
+	padding: 10px;
+	border: solid 1px #44ff44; /* considered #FBCB1F alternate color */
+	border-radius: 5px;
+	background-color: #222223;
+	box-shadow: 0px 0px 15px #000 inset;
+}
+
+#begin_container {
+    margin-top: 50px;
+	text-align: center;
+}
+
+#description_container {
+	display: none;
+	height: 100%;
+	overflow-y: auto;
+}
+
+#description_box .container-fluid {
+	display: none;
+}
+
+#description_box .row * + div {
+	margin-top: 1em;
+}
+
+#description_box .row h3 {
+    color: white;
+    padding: 10px 0px 15px;
+    border-bottom: dotted #44FF44 2px;
+    text-align: center;
+    font-size: calc(10px + 1.5vw);
+}
+
+#description_box .row h4 {
+    margin-bottom: 4px;
+	color: #8aff8a;
+    font-size: calc(10px + 1.25vw);
+}
+
+#description_box .row p {
+    margin-bottom: 15px;
+}
+
+#description_box .row a {
+	color: #41BEEC;
+}
+
+#description_box i {
+	position: absolute;
+	bottom: 10px;
+	right: 25px;
+    font-family: "Font Awesome 5 Free";
+	font-style: normal;
+}
+.stagename {
+    font-size: 80%;
+    color: #44FF44;
+    padding-left: 10px;
+}
+
+.constellation_link {
+    padding: 5px 10px;
+    border: 1px solid #41BEEC;
+    border-radius: 5px;
+}
+
+.constellation_para {
+    text-align: center;
+}
+
+.constellation_link:hover {
+    text-decoration: none;
+}
+
+#description_box .row .constellation_link:active {
+    background-color: #41BEEC;
+    color: #000;
+}
+.topbullet {
+    margin: 10px 0 5px;
+}
+
+#scroll_arrow {
+    display: none;
+	color: #44ff44; /* considered #FBCB1F alternate color */
+}
+
+.fa-arrow-down {
+	display: none;
+}
+
+
+
+
+
+/* Colophon section */
+
+#colophon {
+	position: absolute;
+	bottom: 10px;
+	left: 15px;
+}
+
+#colophon p {
+  font-size: 0.5em;
+  color: #BBB;
+}
+
+.colophon_link {
+    color: #41BEEC;
+}
+
+#colophon img {
+    width: 1rem;
+    height: 1rem;
+    vertical-align: middle;
+    margin: 0 2px;
+}
