@@ -2,6 +2,230 @@
 <Folder MSRCommunityId="0" MSRComponentId="0" Permission="0" Name="BUAC Stellar Life Cycles" Group="Explorer" Searchable="False" Type="Earth">
   <VersionDependent>false</VersionDependent>
 
+  <Place MSRCommunityId="0" MSRComponentId="0" Permission="0" Name="Orion Nebula Spitzer" DataSetType="Sky" RA="5.5808333333333344" Dec="-5.44416666666667" Constellation="ORI" Classification="Nebula" Magnitude="0" Distance="0" ZoomLevel="19.59" Rotation="0" Angle="0" DomeAlt="0" DomeAz="0" Opacity="100" AngularSize="19.59">
+    <Target>orionnebula</Target>
+    <ForegroundImageSet>
+      <ImageSet MSRCommunityId="0" MSRComponentId="0" Permission="0" Generic="False" DataSetType="Sky" BandPass="IR" Url="http://r{S:1}.ortho.tiles.virtualearth.net/tiles/wsa0000010231{Q}?g=131" TileLevels="5" WidthFactor="2" Sparse="True" Rotation="0.015915112700651" QuadTreeMap="0123" Projection="Tangent" Name="Orion Nebula Spitzer" FileType=".png" CenterY="-5.59338109097" CenterX="83.6383655257" BottomsUp="False" StockSet="False" ElevationModel="False" OffsetX="-0.151262042234303" OffsetY="0.179267217168241" BaseTileLevel="0" BaseDegreesPerTile="0.682489467823981" MeanRadius="0" FOV="1.6">
+        <Credits>NASA/JPL-Caltech/T. Megeath (University of Toledo), M. Robberto (STScI), HST</Credits>
+        <CreditsUrl>http://gallery.spitzer.caltech.edu/Imagegallery/image.php?image_name=ssc2006-21a</CreditsUrl>
+        <ThumbnailUrl>http://www.worldwidetelescope.org/wwtweb/thumbnail.aspx?name=1154245897</ThumbnailUrl>
+      </ImageSet>
+    </ForegroundImageSet>
+    <Description Title="The Great Orion Nebula">
+      <div class="Thumbnail">
+        Orion Nebula
+      </div>
+      <div class="Name">
+        <h3>Orion Nebula <span class="stagename">star-forming nebula</span></h3>
+      </div>
+      <div class="What">
+        <h4>What is it?</h4>
+        <p>
+          The Orion Nebula is a <strong>star-forming nebula</strong>, a cloud of gas and dust where new stars are being born. A group of hot, young stars within the cloud lights up much of the nebula. The embedded young stars transfer energy to the gas, which causes the atoms in the gas to give off light at very specific wavelengths. Astronomers use this light to identify what elements are present in the gas. For example, red light emitted from the cloud indicates that there is <a data-toggle="modal" href="#objectModal">hydrogen</a> present. Green light indicates <a data-toggle="modal" href="#objectModal">oxygen</a>.
+        </p>
+        <p>
+          Other parts of the cloud are cold and dense and appear dark.
+        </p>
+        <p>
+          You can see the Orion Nebula with the unaided eye from a dark sky. It appears as the tip of a sword, below the middle star of Orion’s belt in the constelation Orion.
+        </p>
+        <p class="constellation_para">
+          <a class="orion_const constellation_link" href="#">See where the Orion Nebula appears in the constellation Orion</a>
+        </p>
+      </div>
+      <div class="Before">
+        <h4>Where did it come from?</h4>
+        <p>
+          Gas and dust are present throughout our galaxy. Most of the gas is made of <a data-toggle="modal" href="#objectModal">hydrogen</a> and <a data-toggle="modal" href="#objectModal">helium</a>, but it also includes heavier elements that were made inside stars. The stars release the enriched gas into space when they become <strong>planetary nebulae</strong> or <strong>supernovas</strong>. Gravity eventually brings the gas together into a large cloud where new stars can form.
+        </p>
+        <p>
+          As the gas begins to collapse inward, gravitational energy will convert to thermal energy, raising the temperature high enough to begin nuclear fusion, which is necessary to begin star formation.
+        </p>
+      </div>
+      <div class="Process">
+        <h4>What is happening now?</h4>
+        <p>
+          In the coldest, darkest parts of the cloud, gravity is pulling gas and dust in that region into dense clumps that could someday become new stars.
+        </p>
+      </div>
+      <div class="Elements">
+        <h4>Element formation</h4>
+        <p>
+          Small amounts of new elements can form in the nebula if high energy particles collide with atoms and break them apart. This process is called cosmic ray fission. <a data-toggle="modal" href="#objectModal">Beryllium</a> is an example of an element that forms from cosmic ray fission.
+        </p>
+      </div>
+      <div class="After">
+        <h4>What's next?</h4>
+        <p>
+          The Orion Nebula will continue to form new <strong>protostars</strong> until most of the gas and dust has either formed into a star or been ejected from the nebula. At that point, the stars will have formed into a star cluster, laced with wisps of gas and dust where the star-forming nebula had been.
+        </p>
+      </div>
+      <div class="Properties">
+        <h4>Properties / Characteristics</h4>
+        <ul>
+          <li><strong>Distance from Earth:</strong> 1,300 light years (1.2 &#215; 10<sup>16</sup> km)</li>
+          <li><strong>Size:</strong> 24 light years across (2.3 &#215; 10<sup>14</sup> km)</li>
+          <li><strong>Mass:</strong> 2000 solar masses (4 &#215; 10<sup>33</sup> kg)</li>
+          <li><strong>Temperature:</strong> variable in the cloud, ranges from -260&#176;C to 10,000&#176;C</li>
+        </ul>
+      </div>
+      <div class="Dive">
+        <h4>Dive deeper</h4>
+        <p>
+        </p>
+      </div>
+    </Description>
+  </Place>
+
+   <Place MSRCommunityId="0" MSRComponentId="0" Permission="0" Name="HOPS 68" DataSetType="Sky" RA="5.591333333" Dec="-5.15" Constellation="VIR" Classification="Unidentified" Magnitude="0" Distance="0" ZoomLevel="3.49" Rotation="0" Angle="0" DomeAlt="0" DomeAz="0" Opacity="100" AngularSize="3.49">
+    <Target>hops68</Target>
+    <ForegroundImageSet>
+      <ImageSet Name="HOPS 68" DemUrl="" MSRCommunityId="0" MSRComponentId="0" Permission="0" Generic="False" DataSetType="Sky" BandPass="Visible" Url="http://www.spitzer.caltech.edu/uploaded_files/images/0007/9046/ssc2011-06c1_Med.jpg" TileLevels="0" WidthFactor="1" Sparse="False" Rotation="0.0327671586219935" QuadTreeMap="" Projection="SkyImage" FileType=".jpg" CenterY="-5.2756498433051791" CenterX="83.907803091754644" BottomsUp="False" StockSet="False" ElevationModel="False" OffsetX="612.165595583851" OffsetY="64.600102050693337" BaseTileLevel="0" BaseDegreesPerTile="0.0003690619088841799" ReferenceFrame="" MeanRadius="0" FOV="0.4">
+        <Credits>NASA/JPL-Caltech/T. Megeath (University of Toledo, Ohio)</Credits>
+        <CreditsUrl>http://www.spitzer.caltech.edu/images/3635-ssc2011-06c1-Protostar-HOPS-68-in-Orion</CreditsUrl>
+        <ThumbnailUrl>HOPS68_thumbnail.jpg</ThumbnailUrl>
+      </ImageSet>
+    </ForegroundImageSet>
+    <Description Title="Inside the Orion Nebula: HOPS-68">
+      <div class="Thumbnail">
+        HOPS-68
+      </div>
+      <div class="Name">
+        <h3>HOPS-68 <span class="stagename">protostar</span></h3>
+      </div>
+      <div class="What">
+        <h4>What is it?</h4>
+        <p>
+          HOPS-68 is a <strong>protostar</strong> in the Orion Nebula. It is the small bright dot marked with an arrow in the image shown above. This image was taken with the Spitzer Space Telescope, and shows a close-up of the Orion Nebula in infrared radiation. Other protostars can also be seen in the image as red dots.
+        </p>
+        <p>
+          The Orion Nebula is a large cloud of gas and dust. You can see the Orion Nebula with the unaided eye from a dark sky. It appears as the tip of a sword, below the middle star of Orion’s belt in the constellation Orion.
+        </p>
+        <p class="constellation_para">
+          <a class="orion_const constellation_link" href="#">See where HOPS-68 appears in the constellation Orion</a>
+        </p>
+      </div>
+      <div class="Before">
+        <h4>Where did it come from?</h4>
+        <p>
+          Before HOPS-68 reached its current stage, it was a relatively dense region of gas and dust within the Orion <strong>star-forming nebula</strong>.  Gravity pulled together more gas and dust from the surrounding area into a cold, dense clump that would become HOPS-68.
+        </p>
+        <p>
+          Gravity continued to compress the gas, until the object's core became hot enough to start a process called deuterium-burning, which occurs in a new protostar's core.
+        </p>
+      </div>
+      <div class="Process">
+        <h4>What is happening now?</h4>
+        <p>
+          Currently, deuterium-burning is fusing an uncommon type of <a data-toggle="modal" href="#objectModal">hydrogen</a> (called <a data-toggle="modal" href="#objectModal">deuterium</a>, which has 1 neutron instead of the typical 0) into an uncommon type of <a data-toggle="modal" href="#objectModal">helium</a> (called <a data-toggle="modal" href="#objectModal">helium-3</a>, which has only 1 neutron instead of the typical 2). 
+        </p>
+        <p>
+          The radiation pressure created by deuterium burning counteracts the inward force of the gravity, and the object remains stable for some time. More gas and dust can continue to collect onto the object, allowing it to grow in mass. Some of this gas and dust might eventually become planets, and someday form into life on those planets.
+        </p>
+        <p>
+        The surrounding dust blocks visible light from reaching us. However, the dust also absorbs the energy emitted by the object and re-radiates it at infrared wavelengths. Therefore, this object can be observed by telescopes that detect infrared light, like the Spitzer Space Telescope.
+        </p>
+      </div>
+      <div class="Elements">
+        <h4>Element formation</h4>
+        <p>
+          Deuterium-burning is fusing an uncommon type of <a data-toggle="modal" href="#objectModal">hydrogen</a> (<a data-toggle="modal" href="#objectModal">deuterium</a>) into an uncommon type of <a data-toggle="modal" href="#objectModal">helium</a> (<a data-toggle="modal" href="#objectModal">helium-3</a>). (This process happens at a lower temperature than is needed to fuse typical hydrogen to helium.)
+        </p>
+        <ul>
+          <li><a data-toggle="modal" href="#objectModal">deuterium</a> &#8594; <a data-toggle="modal" href="#objectModal">helium-3</a></li>
+        </ul>
+      </div>
+      <div class="After">
+        <h4>What's next?</h4>
+        <p>
+          There is only a small proportion of <a data-toggle="modal" href="#objectModal">deuterium</a> in a star’s gas. Once the <a data-toggle="modal" href="#objectModal">deuterium</a> in HOPS-68's core runs out and deuterium-burning stops, there will be no way to counteract gravity. The gas will compress further, and the core will reach a temperature where the more typical <a data-toggle="modal" href="#objectModal">hydrogen</a> atoms in the core can fuse to <a data-toggle="modal" href="#objectModal">helium</a>.
+        </p>
+      </div>
+      <div class="Properties">
+        <h4>Properties / Characteristics</h4>
+        <ul>
+          <li>Distance from Earth: 1300 light years (1.2 &#215; 10<sup>16</sup> km)</li>
+          <li>Size: &#8764;3 solar radii (2 &#215; 10<sup>6</sup> km)</li>
+          <li>Mass: &#8764;0.5 solar masses (1 &#215; 10<sup>30</sup> kg)</li>
+          <li>Core Temperature: 10<sup>6</sup> &#176;C</li>
+        </ul>
+      </div>
+      <div class="Dive">
+        <h4>Dive Deeper</h4>
+        <p>
+          <a href="https://hubblesite.org/video/1005" target="_new">3D fly-through</a> of Spitzer Orion image
+        </p>
+      </div>
+    </Description>
+  </Place> 
+
+  <Place MSRCommunityId="0" MSRComponentId="0" Permission="0" Name="Sun" DataSetType="Sky" RA="0.21833333" Dec="1.41694444" Constellation="PSC" Classification="SolarSystem" Magnitude="-26.73" Distance="0.99690962291948559" ZoomLevel="4" Rotation="0" Angle="0" DomeAlt="0" DomeAz="0" Opacity="100" AngularSize="4">
+    <ImageSet>
+    <Target>sunstar</Target>
+    <ThumbnailUrl>http://www.worldwidetelescope.org/wwtweb/thumbnail.aspx?name=sun</ThumbnailUrl>
+    </ImageSet>
+    <Description Title="Our Sun">
+      <div class="Thumbnail">
+        Sun
+      </div>
+      <div class="Name">
+        <h3>Our Sun <span class="stagename">medium-sized main-sequence star</span></h3>
+      </div>
+      <div class="What">
+        <h4>What is it?</h4>
+        <p>
+          Our Sun is an average medium-mass star, a large ball of gas compressed by gravity. Our Sun is about 5 billion years old, and models predict that it will spend another 5 billion years in its current stage.
+        </p>
+      </div>
+      <div class="Before">
+        <h4>Where did it come from?</h4>
+        <p>
+          Before the Sun reached its current stage, it was a <strong>protostar</strong> that formed from gas and dust. Gravity compressed the gas in the core of the protostar strongly enough to reach a temperature where <a data-toggle="modal" href="#objectModal">deuterium</a> burned to <a data-toggle="modal" href="#objectModal">Helium-3</a>.
+        </p>
+        <p>
+          There is only a small proportion of <a data-toggle="modal" href="#objectModal">deuterium</a> in a star’s gas. Once the <a data-toggle="modal" href="#objectModal">deuterium</a> in the Sun’s core ran out and deuterium-burning stopped, there was no way to counteract gravity. The gas compressed further, and the core eventually reached a temperature where the <a data-toggle="modal" href="#objectModal">hydrogen</a> atoms in the core fuse to <a data-toggle="modal" href="#objectModal">helium</a>. 
+        </p>
+      </div>
+      <div class="Process">
+        <h4>What is happening now?</h4>
+        <p>
+          Currently, <a data-toggle="modal" href="#objectModal">hydrogen</a> atoms in the core are fusing to <a data-toggle="modal" href="#objectModal">helium</a>. This fusion reaction releases the enormous amount of energy that allows the Sun to shine at visible wavelengths. The fusion energy pushes outward and balances the inward force created by gravity.
+        </p>
+        <p>
+          The Sun will stay in balance until the <a data-toggle="modal" href="#objectModal">hydrogen</a> in the core runs out, which we expect won't happen for another 5 billion years.
+        </p>
+      </div>
+      <div class="Elements">
+        <h4>Element formation</h4>
+        <p>
+          <a data-toggle="modal" href="#objectModal">Hydrogen</a> atoms in the core are fusing to create <a data-toggle="modal" href="#objectModal">helium</a>. The newly-formed <a data-toggle="modal" href="#objectModal">helium</a> will remain in the core for the duration of this stellar stage.
+        </p>
+        <ul>
+          <li><a data-toggle="modal" href="#objectModal">H</a> &#8594; <a data-toggle="modal" href="#objectModal">He</a></li>
+        </ul>
+      </div>
+      <div class="After">
+        <h4>What's next?</h4>
+        <p>
+          After the Sun runs out of <a data-toggle="modal" href="#objectModal">hydrogen</a> in its core, it will become a <strong>red giant</strong>. At this point, the star will grow significantly in size, and enough pressure will build in the core to begin fusing <a data-toggle="modal" href="#objectModal">helium</a> into <a data-toggle="modal" href="#objectModal">carbon</a>.
+        </p>
+      </div>
+      <div class="Properties">
+        <h4>Properties / Characteristics</h4>
+        <ul>
+          <li><strong>Distance from Earth:</strong> 1 Astronomical Unit (1.5 &#215; 10<sup>8</sup> km)</li>
+          <li><strong>Radius:</strong> 1 solar radius (7 &#215; 10<sup>5</sup> km)</li>
+          <li><strong>Mass:</strong> 1 solar mass (2 &#215; 10<sup>30</sup> kg)</li>
+          <li><strong>Temperature (surface):</strong> 5,500&#176;C</li>
+        </ul>
+      </div>
+      <div class="Dive">
+        <h4>Dive deeper</h4>
+        <p>
+        </p>
+      </div>
+    </Description>
+  </Place>
 
   <Place MSRCommunityId="0" MSRComponentId="0" Permission="0" Name="The Ring Nebula (M57)" DataSetType="Sky" RA="18.893055555555591" Dec="33.0283333333333" Constellation="LYR" Classification="Nebula" Magnitude="0" Distance="0" ZoomLevel="0.565" Rotation="0" Angle="0" DomeAlt="0" DomeAz="0" Opacity="100" AngularSize="0.565">
     <Target>ringnebula</Target>
@@ -323,73 +547,6 @@
   </Place>
 
 
-  <Place MSRCommunityId="0" MSRComponentId="0" Permission="0" Name="Sun" DataSetType="Sky" RA="0.21833333" Dec="1.41694444" Constellation="PSC" Classification="SolarSystem" Magnitude="-26.73" Distance="0.99690962291948559" ZoomLevel="4" Rotation="0" Angle="0" DomeAlt="0" DomeAz="0" Opacity="100" AngularSize="4">
-    <ImageSet>
-    <Target>sunstar</Target>
-    <ThumbnailUrl>http://www.worldwidetelescope.org/wwtweb/thumbnail.aspx?name=sun</ThumbnailUrl>
-    </ImageSet>
-    <Description Title="Our Sun">
-      <div class="Thumbnail">
-        Sun
-      </div>
-      <div class="Name">
-        <h3>Our Sun <span class="stagename">medium-sized main-sequence star</span></h3>
-      </div>
-      <div class="What">
-        <h4>What is it?</h4>
-        <p>
-          Our Sun is an average medium-mass star, a large ball of gas compressed by gravity. Our Sun is about 5 billion years old, and models predict that it will spend another 5 billion years in its current stage.
-        </p>
-      </div>
-      <div class="Before">
-        <h4>Where did it come from?</h4>
-        <p>
-          Before the Sun reached its current stage, it was a <strong>protostar</strong> that formed from gas and dust. Gravity compressed the gas in the core of the protostar strongly enough to reach a temperature where <a data-toggle="modal" href="#objectModal">deuterium</a> burned to <a data-toggle="modal" href="#objectModal">Helium-3</a>.
-        </p>
-        <p>
-          There is only a small proportion of <a data-toggle="modal" href="#objectModal">deuterium</a> in a star’s gas. Once the <a data-toggle="modal" href="#objectModal">deuterium</a> in the Sun’s core ran out and deuterium-burning stopped, there was no way to counteract gravity. The gas compressed further, and the core eventually reached a temperature where the <a data-toggle="modal" href="#objectModal">hydrogen</a> atoms in the core fuse to <a data-toggle="modal" href="#objectModal">helium</a>. 
-        </p>
-      </div>
-      <div class="Process">
-        <h4>What is happening now?</h4>
-        <p>
-          Currently, <a data-toggle="modal" href="#objectModal">hydrogen</a> atoms in the core are fusing to <a data-toggle="modal" href="#objectModal">helium</a>. This fusion reaction releases the enormous amount of energy that allows the Sun to shine at visible wavelengths. The fusion energy pushes outward and balances the inward force created by gravity.
-        </p>
-        <p>
-          The Sun will stay in balance until the <a data-toggle="modal" href="#objectModal">hydrogen</a> in the core runs out, which we expect won't happen for another 5 billion years.
-        </p>
-      </div>
-      <div class="Elements">
-        <h4>Element formation</h4>
-        <p>
-          <a data-toggle="modal" href="#objectModal">Hydrogen</a> atoms in the core are fusing to create <a data-toggle="modal" href="#objectModal">helium</a>. The newly-formed <a data-toggle="modal" href="#objectModal">helium</a> will remain in the core for the duration of this stellar stage.
-        </p>
-        <ul>
-          <li><a data-toggle="modal" href="#objectModal">H</a> &#8594; <a data-toggle="modal" href="#objectModal">He</a></li>
-        </ul>
-      </div>
-      <div class="After">
-        <h4>What's next?</h4>
-        <p>
-          After the Sun runs out of <a data-toggle="modal" href="#objectModal">hydrogen</a> in its core, it will become a <strong>red giant</strong>. At this point, the star will grow significantly in size, and enough pressure will build in the core to begin fusing <a data-toggle="modal" href="#objectModal">helium</a> into <a data-toggle="modal" href="#objectModal">carbon</a>.
-        </p>
-      </div>
-      <div class="Properties">
-        <h4>Properties / Characteristics</h4>
-        <ul>
-          <li><strong>Distance from Earth:</strong> 1 Astronomical Unit (1.5 &#215; 10<sup>8</sup> km)</li>
-          <li><strong>Radius:</strong> 1 solar radius (7 &#215; 10<sup>5</sup> km)</li>
-          <li><strong>Mass:</strong> 1 solar mass (2 &#215; 10<sup>30</sup> kg)</li>
-          <li><strong>Temperature (surface):</strong> 5,500&#176;C</li>
-        </ul>
-      </div>
-      <div class="Dive">
-        <h4>Dive deeper</h4>
-        <p>
-        </p>
-      </div>
-    </Description>
-  </Place>
 
 
   <Place MSRCommunityId="0" MSRComponentId="0" Permission="0" Name="Sigma Orionis" DataSetType="Sky" RA="5.6455555553333348" Dec="-2.6" Constellation="ORI" Classification="Star" Magnitude="3.81" Distance="0" ZoomLevel="-1" Rotation="0" Angle="0" DomeAlt="0" DomeAz="0" Opacity="100" AngularSize="-1">
@@ -466,226 +623,6 @@
       </div>
     </Description>
   </Place>
-
-
-  <Place MSRCommunityId="0" MSRComponentId="0" Permission="0" Name="Orion Nebula Spitzer" DataSetType="Sky" RA="5.5808333333333344" Dec="-5.44416666666667" Constellation="ORI" Classification="Nebula" Magnitude="0" Distance="0" ZoomLevel="19.59" Rotation="0" Angle="0" DomeAlt="0" DomeAz="0" Opacity="100" AngularSize="19.59">
-    <Target>orionnebula</Target>
-    <ForegroundImageSet>
-      <ImageSet MSRCommunityId="0" MSRComponentId="0" Permission="0" Generic="False" DataSetType="Sky" BandPass="IR" Url="http://r{S:1}.ortho.tiles.virtualearth.net/tiles/wsa0000010231{Q}?g=131" TileLevels="5" WidthFactor="2" Sparse="True" Rotation="0.015915112700651" QuadTreeMap="0123" Projection="Tangent" Name="Orion Nebula Spitzer" FileType=".png" CenterY="-5.59338109097" CenterX="83.6383655257" BottomsUp="False" StockSet="False" ElevationModel="False" OffsetX="-0.151262042234303" OffsetY="0.179267217168241" BaseTileLevel="0" BaseDegreesPerTile="0.682489467823981" MeanRadius="0" FOV="1.6">
-        <Credits>NASA/JPL-Caltech/T. Megeath (University of Toledo), M. Robberto (STScI), HST</Credits>
-        <CreditsUrl>http://gallery.spitzer.caltech.edu/Imagegallery/image.php?image_name=ssc2006-21a</CreditsUrl>
-        <ThumbnailUrl>http://www.worldwidetelescope.org/wwtweb/thumbnail.aspx?name=1154245897</ThumbnailUrl>
-      </ImageSet>
-    </ForegroundImageSet>
-    <Description Title="The Great Orion Nebula">
-      <div class="Thumbnail">
-        Orion Nebula
-      </div>
-      <div class="Name">
-        <h3>Orion Nebula <span class="stagename">star-forming nebula</span></h3>
-      </div>
-      <div class="What">
-        <h4>What is it?</h4>
-        <p>
-          The Orion Nebula is a large cloud of gas and dust referred to as a <strong>star-forming nebula</strong>. A group of hot, young stars within the cloud lights up much of the nebula. Other parts of the cloud are cold and dense and appear dark.
-        </p>
-        <p>
-          You can see the Orion Nebula with the unaided eye from a dark sky. It appears as the tip of a sword, below the middle star of Orion’s belt in the constelation Orion.
-        </p>
-        <p class="constellation_para">
-          <a class="orion_const constellation_link" href="#">See where the Orion Nebula appears in the constellation Orion</a>
-        </p>
-      </div>
-      <div class="Before">
-        <h4>Where did it come from?</h4>
-        <p>
-          Before the Orion Nebula reached its current stage, it was just a large formless collection of <a data-toggle="modal" href="#objectModal">hydrogen</a> and <a data-toggle="modal" href="#objectModal">helium</a> and other elements that had formed and been released into space by <strong>planetary nebula</strong> and <strong>supernova remnants</strong>.
-        </p>
-        <p>
-          As the gas begins to collapse inward, gravitational energy will convert to thermal energy, raising the temperature high enough to begin nuclear fusion, which is necessary to begin star formation.
-        </p>
-      </div>
-      <div class="Process">
-        <h4>What is happening now?</h4>
-        <p>
-          The embedded young stars transfer energy to the gas, which causes the atoms in the gas to give off light at very specific wavelengths. Astronomers use this light to identify what elements are present in the gas. For example, red light emitted from the cloud indicates that there is <a data-toggle="modal" href="#objectModal">hydrogen</a> present. Green light indicates <a data-toggle="modal" href="#objectModal">oxygen</a>.
-        </p>
-        <p>
-          In the coldest, darkest parts of the cloud, gravity is pulling gas and dust in that region into dense clumps that could someday become new stars.
-        </p>
-      </div>
-      <div class="Elements">
-        <h4>Element formation</h4>
-        <p>
-          Small amounts of new elements can form in the nebula if high energy particles collide with atoms and break them apart. This process is called cosmic ray fission. Elements shown in magenta in this <a href="https://chandra.si.edu/photo/2017/casa_life/casa_life_periodic.jpg" target="_new">periodic table</a> can be formed from cosmic ray fission.
-        </p>
-      </div>
-      <div class="After">
-        <h4>What's next?</h4>
-        <p>
-          The Orion Nebula will continue to form new <strong>protostars</strong> until most of the gas and dust has either formed into a star or been ejected from the nebula. At that point, the stars will have formed into a star cluster, laced with wisps of gas and dust where the star-forming nebula had been.
-        </p>
-      </div>
-      <div class="Properties">
-        <h4>Properties / Characteristics</h4>
-        <ul>
-          <li><strong>Distance from Earth:</strong> 1,300 light years (1.2 &#215; 10<sup>16</sup> km)</li>
-          <li><strong>Size:</strong> 24 light years across (2.3 &#215; 10<sup>14</sup> km)</li>
-          <li><strong>Mass:</strong> 2000 solar masses (4 &#215; 10<sup>33</sup> kg)</li>
-          <li><strong>Temperature:</strong> variable in the cloud, ranges from -260&#176;C to 10,000&#176;C</li>
-        </ul>
-      </div>
-      <div class="Dive">
-        <h4>Dive deeper</h4>
-        <p>
-        </p>
-      </div>
-    </Description>
-  </Place>
-
-
-  <Place MSRCommunityId="0" MSRComponentId="0" Permission="0" Name="HOPS 68" DataSetType="Sky" RA="5.591333333" Dec="-5.15" Constellation="VIR" Classification="Unidentified" Magnitude="0" Distance="0" ZoomLevel="3.49" Rotation="0" Angle="0" DomeAlt="0" DomeAz="0" Opacity="100" AngularSize="3.49">
-    <Target>hops68</Target>
-    <ForegroundImageSet>
-      <ImageSet Name="HOPS 68" DemUrl="" MSRCommunityId="0" MSRComponentId="0" Permission="0" Generic="False" DataSetType="Sky" BandPass="Visible" Url="http://www.spitzer.caltech.edu/uploaded_files/images/0007/9046/ssc2011-06c1_Med.jpg" TileLevels="0" WidthFactor="1" Sparse="False" Rotation="0.0327671586219935" QuadTreeMap="" Projection="SkyImage" FileType=".jpg" CenterY="-5.2756498433051791" CenterX="83.907803091754644" BottomsUp="False" StockSet="False" ElevationModel="False" OffsetX="612.165595583851" OffsetY="64.600102050693337" BaseTileLevel="0" BaseDegreesPerTile="0.0003690619088841799" ReferenceFrame="" MeanRadius="0" FOV="0.4">
-        <Credits>NASA/JPL-Caltech/T. Megeath (University of Toledo, Ohio)</Credits>
-        <CreditsUrl>http://www.spitzer.caltech.edu/images/3635-ssc2011-06c1-Protostar-HOPS-68-in-Orion</CreditsUrl>
-        <ThumbnailUrl>HOPS68_thumbnail.jpg</ThumbnailUrl>
-      </ImageSet>
-    </ForegroundImageSet>
-    <Description Title="Inside the Orion Nebula: HOPS-68">
-      <div class="Thumbnail">
-        HOPS-68
-      </div>
-      <div class="Name">
-        <h3>HOPS-68 <span class="stagename">protostar</span></h3>
-      </div>
-      <div class="What">
-        <h4>What is it?</h4>
-        <p>
-          HOPS-68 is a <strong>protostar</strong> in the Orion Nebula. It is the small bright dot (among many others representing other protostars) that the arrow is pointing to in the foreground image in the viewer above. This image was taken with the Spitzer Space Telescope, and shows a close-up of the Orion Nebula.
-        </p>
-        <p>
-          The Orion Nebula is a large cloud of gas and dust. You can see the Orion Nebula with the unaided eye from a dark sky. It appears as the tip of a sword, below the middle star of Orion’s belt in the constellation Orion.
-        </p>
-        <p class="constellation_para">
-          <a class="orion_const constellation_link" href="#">See where HOPS-68 appears in the constellation Orion</a>
-        </p>
-      </div>
-      <div class="Before">
-        <h4>Where did it come from?</h4>
-        <p>
-          Before HOPS-68 reached its current stage, it was just a cloud of gas and dust in the <strong>star-forming nebula</strong> known as the Orion Nebula. Eventually, gravity pulled a cold, dense clump of gas and dust from within the nebula and began to form it into an object, the first stage of life for a newly-forming star.
-        </p>
-        <p>
-          Gravity continued to compress the gas, until the object's core heated up to a temperature of 10<sup>6</sup> &#176;C. At this temperature, there was enough energy to start a process called deuterium burning, which occurs in a new protostar's core.
-        </p>
-      </div>
-      <div class="Process">
-        <h4>What is happening now?</h4>
-        <p>
-          Currently, deuterium-burning is fusing an uncommon type of <a data-toggle="modal" href="#objectModal">hydrogen</a> (called <a data-toggle="modal" href="#objectModal">deuterium</a>, which has 1 neutron instead of the typical 0) into an uncommon type of <a data-toggle="modal" href="#objectModal">helium</a> (called <a data-toggle="modal" href="#objectModal">helium-3</a>, which has only 1 neutron instead of the typical 2). 
-        </p>
-        <p>
-          The energy released by the deuterium burning counteracts the inward force of the gravity, and the object remains stable for some time. More gas and dust can continue to collect onto the object, allowing it to grow in mass. The surrounding dust absorbs the energy emitted by the object and re-radiates it at infrared wavelengths. Therefore, this object cannot be seen at visible wavelengths and can only be observed by telescopes that detect infrared light, like the Spitzer Space Telescope.
-        </p>
-      </div>
-      <div class="Elements">
-        <h4>Element formation</h4>
-        <p>
-          Deuterium-burning is fusing an uncommon type of <a data-toggle="modal" href="#objectModal">hydrogen</a> (<a data-toggle="modal" href="#objectModal">deuterium</a>) into an uncommon type of <a data-toggle="modal" href="#objectModal">helium</a> (<a data-toggle="modal" href="#objectModal">helium-3</a>).The newly-formed <a data-toggle="modal" href="#objectModal">helium-3</a> will remain in the core for the duration of this stellar stage.
-        </p>
-        <ul>
-          <li><a data-toggle="modal" href="#objectModal">deuterium</a> &#8594; <a data-toggle="modal" href="#objectModal">helium-3</a></li>
-        </ul>
-      </div>
-      <div class="After">
-        <h4>What's next?</h4>
-        <p>
-          There is only a small proportion of <a data-toggle="modal" href="#objectModal">deuterium</a> in a star’s gas. Once the <a data-toggle="modal" href="#objectModal">deuterium</a> in HOPS-68's core runs out and deuterium-burning stops, there will be no way to counteract gravity. The gas will compress further, and the core will reach a temperature where the <a data-toggle="modal" href="#objectModal">hydrogen</a> atoms in the core fuse to <a data-toggle="modal" href="#objectModal">helium</a>.
-        </p>
-      </div>
-      <div class="Properties">
-        <h4>Properties / Characteristics</h4>
-        <ul>
-          <li>Distance from Earth: 1300 light years (1.2 &#215; 10<sup>16</sup> km)</li>
-          <li>Size: 24 light years across (7.5 &#215; 10<sup>7</sup> km)</li>
-          <li>Mass: 0.5 solar masses (1 &#215; 10<sup>30</sup> kg)</li>
-          <li>Core Temperature: 10<sup>6</sup> &#176;C</li>
-        </ul>
-      </div>
-      <div class="Dive">
-        <h4>Dive Deeper</h4>
-        <p>
-          <a href="https://hubblesite.org/video/1005" target="_new">3D fly-through</a> of Spitzer Orion image
-        </p>
-      </div>
-    </Description>
-  </Place>
-
-  
-
-
-  <CMB MSRCommunityId="0" MSRComponentId="0" Permission="0" Name="Cosmic Microwave Background" DataSetType="Sky" RA="5.5764999999999993" Dec="-0.33" Constellation="ORI" Classification="Constellation" Magnitude="0" Distance="0" ZoomLevel="-1" Rotation="0" Angle="0" DomeAlt="0" DomeAz="0" Opacity="100" AngularSize="-1">
-    <ImageSet FOV="60">
-      <Target>CosmicMicrowaveBackground</Target>
-      <ThumbnailUrl>CMB_thumbnail.png</ThumbnailUrl>
-    </ImageSet>
-    <Description Title="Cosmic Microwave Background">
-      <div class="Thumbnail">
-        Cosmic Microwave Background
-      </div>
-      <div class="Name">
-        <h3>Cosmic Microwave Background</h3>
-      </div>
-      <div class="What">
-        <h4>What is it?</h4>
-        <p>
-          The Cosmic Microwave Background is radiation left over from the Big Bang. The radiation has been cooling over the lifetime of the Universe (13.7 billion years) and can be observed in every direction to have a temperature of -270&#176;C.
-        </p>
-      </div>
-      <div class="Process">
-        <h4>What happened in the Big Bang?</h4>
-        <p>
-          The Big Bang theory suggests that the Universe expanded rapidly from a state of very high temperature and density, and has been expanding ever since.
-        </p>
-      </div>
-      <div class="Elements">
-        <h4>Element formation</h4>
-        <p>
-          Within the first few minutes after the Big Bang, the first elements formed in a process called Big Bang Nucleosynthesis. By mass, the elements that formed were:
-        </p>
-        <ul>
-          <li>75% <a data-toggle="modal" href="#objectModal">Hydrogen</a></li>
-          <li>25% <a data-toggle="modal" href="#objectModal">Helium</a></li>
-          <li>0.0000000001% <a data-toggle="modal" href="#objectModal">Lithium</a></li>
-        </ul>
-        <p>
-          There were no other elements in the Universe until stars formed.
-        </p>
-      </div>
-      <div class="After">
-        <h4>What's next?</h4>
-        <p>
-        </p>
-      </div>
-      <div class="Properties">
-        <h4>Properties / Characteristics</h4>
-      </div>
-      <div class="Dive">
-        <h4>Dive deeper</h4>
-        <p>
-          What is the <a href="https://viewspace.org/video_library/videos/911-VS_WitU_CosmicMicrowaveBackground-377075160?tags=460" target="_new">Cosmic Microwave Background</a>?
-        </p>
-        <p>
-          What is the <a href="https://viewspace.org/video_library/videos/853-VS_DYK_BigBang-1920x1080-358880617?tags=460" target="_new">Big Bang</a>?
-        </p>
-      </div>
-    </Description>
-  </CMB>
-
-
-
 
   <Constellation MSRCommunityId="0" MSRComponentId="0" Permission="0" Name="Orion Constellation" DataSetType="Sky" RA="5.5764999999999993" Dec="-0.33" Constellation="ORI" Classification="Constellation" Magnitude="0" Distance="0" ZoomLevel="-1" Rotation="0" Angle="0" DomeAlt="0" DomeAz="0" Opacity="100" AngularSize="-1">
     <ImageSet FOV="23">
