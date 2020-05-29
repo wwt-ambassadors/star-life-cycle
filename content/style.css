@@ -157,6 +157,7 @@ a, a:hover {
 	position: absolute;
 	bottom: 20px;
 	width: 100%;
+    pointer-events: none;
 }
 
 #zoom_pan_instrux {
