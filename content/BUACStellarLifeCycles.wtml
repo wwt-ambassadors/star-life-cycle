@@ -27,7 +27,7 @@
           Other parts of the cloud are cold and dense and appear dark.
         </p>
         <p>
-          You can see the Orion Nebula with the unaided eye from a dark sky. It appears as the tip of a sword, below the middle star of Orion’s belt in the constelation Orion.
+          You can see the Orion Nebula with the unaided eye from a dark sky. It appears as the tip of a sword, below the middle star of Orion’s belt in the constellation Orion.
         </p>
         <p class="constellation_para">
           <a class="orion_const constellation_link" href="#">See where the Orion Nebula appears in the constellation Orion</a>
@@ -36,10 +36,7 @@
       <div class="Before">
         <h4>Where did it come from?</h4>
         <p>
-          Gas and dust are present throughout our galaxy. Most of the gas is made of <a data-toggle="modal" href="#objectModal">hydrogen</a> and <a data-toggle="modal" href="#objectModal">helium</a>, but it also includes heavier elements that were made inside stars. The stars release the enriched gas into space when they become <strong>planetary nebulae</strong> or <strong>supernovas</strong>. Gravity eventually brings the gas together into a large cloud where new stars can form.
-        </p>
-        <p>
-          As the gas begins to collapse inward, gravitational energy will convert to thermal energy, raising the temperature high enough to begin nuclear fusion, which is necessary to begin star formation.
+          Gas and dust are present throughout our galaxy. Most of the gas is made of <a data-toggle="modal" href="#objectModal">hydrogen</a> and <a data-toggle="modal" href="#objectModal">helium</a>, but it also includes heavier elements that were made inside stars. Stars release the enriched gas into space when they become <strong>planetary nebulae</strong> or <strong>supernovas</strong>. Gravity eventually brings the gas together into a large cloud where new stars can form.
         </p>
       </div>
       <div class="Process">
@@ -123,7 +120,7 @@
           The radiation pressure created by deuterium burning counteracts the inward force of the gravity, and the object remains stable for some time. More gas and dust can continue to collect onto the object, allowing it to grow in mass. Some of this gas and dust might eventually become planets, and someday form into life on those planets.
         </p>
         <p>
-        The surrounding dust blocks visible light from reaching us. However, the dust also absorbs the energy emitted by the object and re-radiates it at infrared wavelengths. Therefore, this object can be observed by telescopes that detect infrared light, like the Spitzer Space Telescope.
+        The surrounding dust blocks visible light from the protostar from reaching us. However, the dust also absorbs the energy emitted by the object and re-radiates it at infrared wavelengths. Therefore, this object can be observed by telescopes that detect infrared light, like the Spitzer Space Telescope.
         </p>
       </div>
       <div class="Elements">
@@ -138,7 +135,7 @@
       <div class="After">
         <h4>What's next?</h4>
         <p>
-          There is only a small proportion of <a data-toggle="modal" href="#objectModal">deuterium</a> in a star’s gas. Once the <a data-toggle="modal" href="#objectModal">deuterium</a> in HOPS-68's core runs out and deuterium-burning stops, there will be no way to counteract gravity. The gas will compress further, and the core will reach a temperature where the more typical <a data-toggle="modal" href="#objectModal">hydrogen</a> atoms in the core can fuse to <a data-toggle="modal" href="#objectModal">helium</a>.
+          There is only a small proportion of <a data-toggle="modal" href="#objectModal">deuterium</a> in a star’s gas. Once the <a data-toggle="modal" href="#objectModal">deuterium</a> in HOPS-68's core runs out and deuterium-burning stops, there will be no way to counteract gravity. The gas will compress further, and the core will reach a high enough temperature for typical <a data-toggle="modal" href="#objectModal">hydrogen</a> atoms in the core to fuse to <a data-toggle="modal" href="#objectModal">helium</a>.
         </p>
       </div>
       <div class="Properties">
@@ -146,7 +143,7 @@
         <ul>
           <li>Distance from Earth: 1300 light years (1.2 &#215; 10<sup>16</sup> km)</li>
           <li>Size: &#8764;3 solar radii (2 &#215; 10<sup>6</sup> km)</li>
-          <li>Mass: &#8764;0.5 solar masses (1 &#215; 10<sup>30</sup> kg)</li>
+          <li>Mass: &#8764;0.5 solar mass (1 &#215; 10<sup>30</sup> kg)</li>
           <li>Core Temperature: 10<sup>6</sup> &#176;C</li>
         </ul>
       </div>
@@ -169,36 +166,36 @@
         Sun
       </div>
       <div class="Name">
-        <h3>Our Sun <span class="stagename">medium-sized main-sequence star</span></h3>
+        <h3>Our Sun <span class="stagename">main-sequence star</span></h3>
       </div>
       <div class="What">
         <h4>What is it?</h4>
         <p>
-          Our Sun is an average medium-mass star, a large ball of gas compressed by gravity. Our Sun is about 5 billion years old, and models predict that it will spend another 5 billion years in its current stage.
+          Our Sun is a <strong>main-sequence star</strong>, a large glowing sphere of gas held together by gravity. It is the center of our Solar System, and it shines its light on all the planets, including Earth, and other objects like moons and asteroids. Our Sun is about 5 billion years old, and models predict that it will spend another 5 billion years in its current stage.
         </p>
       </div>
       <div class="Before">
         <h4>Where did it come from?</h4>
         <p>
-          Before the Sun reached its current stage, it was a <strong>protostar</strong> that formed from gas and dust. Gravity compressed the gas in the core of the protostar strongly enough to reach a temperature where <a data-toggle="modal" href="#objectModal">deuterium</a> burned to <a data-toggle="modal" href="#objectModal">Helium-3</a>.
+          Before the Sun reached its current stage, it was a <strong>protostar</strong> that formed from gas and dust. The protostar stayed in balance when it was burning <a data-toggle="modal" href="#objectModal">deuterium</a> into <a data-toggle="modal" href="#objectModal">Helium-3</a>.
         </p>
         <p>
-          There is only a small proportion of <a data-toggle="modal" href="#objectModal">deuterium</a> in a star’s gas. Once the <a data-toggle="modal" href="#objectModal">deuterium</a> in the Sun’s core ran out and deuterium-burning stopped, there was no way to counteract gravity. The gas compressed further, and the core eventually reached a temperature where the <a data-toggle="modal" href="#objectModal">hydrogen</a> atoms in the core fuse to <a data-toggle="modal" href="#objectModal">helium</a>. 
+          There is only a small proportion of <a data-toggle="modal" href="#objectModal">deuterium</a> in a star’s gas. Once the <a data-toggle="modal" href="#objectModal">deuterium</a> in the Sun’s core ran out and deuterium-burning stopped, there was no outward radiation pressure to counteract gravity. Gravity compressed the gas further, and the core eventually reached a temperature where the more typical <a data-toggle="modal" href="#objectModal">hydrogen</a> atoms in the core could fuse to <a data-toggle="modal" href="#objectModal">helium</a>.
         </p>
       </div>
       <div class="Process">
         <h4>What is happening now?</h4>
         <p>
-          Currently, <a data-toggle="modal" href="#objectModal">hydrogen</a> atoms in the core are fusing to <a data-toggle="modal" href="#objectModal">helium</a>. This fusion reaction releases the enormous amount of energy that allows the Sun to shine at visible wavelengths. The fusion energy pushes outward and balances the inward force created by gravity.
+          Currently, <a data-toggle="modal" href="#objectModal">hydrogen</a> atoms in the core are fusing to <a data-toggle="modal" href="#objectModal">helium</a>. This fusion reaction releases the enormous amount of energy that allows the Sun to shine at visible wavelengths. The fusion also generates outward radiation pressure that balances the inward pressure created by gravity.
         </p>
         <p>
-          The Sun will stay in balance until the <a data-toggle="modal" href="#objectModal">hydrogen</a> in the core runs out, which we expect won't happen for another 5 billion years.
+          The Sun will stay in balance until the <a data-toggle="modal" href="#objectModal">hydrogen</a> in the core runs out, which models predict will happen in about 5 billion years.
         </p>
       </div>
       <div class="Elements">
         <h4>Element formation</h4>
         <p>
-          <a data-toggle="modal" href="#objectModal">Hydrogen</a> atoms in the core are fusing to create <a data-toggle="modal" href="#objectModal">helium</a>. The newly-formed <a data-toggle="modal" href="#objectModal">helium</a> will remain in the core for the duration of this stellar stage.
+          <a data-toggle="modal" href="#objectModal">Hydrogen</a> atoms in the core are fusing to create <a data-toggle="modal" href="#objectModal">helium</a>. 
         </p>
         <ul>
           <li><a data-toggle="modal" href="#objectModal">H</a> &#8594; <a data-toggle="modal" href="#objectModal">He</a></li>
@@ -207,7 +204,7 @@
       <div class="After">
         <h4>What's next?</h4>
         <p>
-          After the Sun runs out of <a data-toggle="modal" href="#objectModal">hydrogen</a> in its core, it will become a <strong>red giant</strong>. At this point, the star will grow significantly in size, and enough pressure will build in the core to begin fusing <a data-toggle="modal" href="#objectModal">helium</a> into <a data-toggle="modal" href="#objectModal">carbon</a>.
+          After the Sun runs out of <a data-toggle="modal" href="#objectModal">hydrogen</a> in its core, it will become a <strong>red giant</strong>. At this point, the star will grow significantly in size, and the core will become hot enough to begin fusing <a data-toggle="modal" href="#objectModal">helium</a> into <a data-toggle="modal" href="#objectModal">carbon</a>.
         </p>
       </div>
       <div class="Properties">
@@ -226,6 +223,85 @@
       </div>
     </Description>
   </Place>
+
+  <Place MSRCommunityId="0" MSRComponentId="0" Permission="0" Name="Aldebaran" DataSetType="Sky" RA="4.5986111113333337" Dec="16.50916667" Constellation="TAU" Classification="Star" Magnitude="0.85" Distance="0" ZoomLevel="-1" Rotation="0" Angle="0" DomeAlt="0" DomeAz="0" Opacity="100" AngularSize="-1">
+    <ImageSet FOV="4">
+      <Target>aldebaranstar</Target>
+      <ThumbnailUrl>aldebaran_thumbnail.png</ThumbnailUrl>
+    </ImageSet>
+    <Description Title="Aldebaran">
+      <div class="Thumbnail">
+        Aldebaran
+      </div>
+      <div class="Name">
+        <h3>Aldebaran <span class="stagename">red giant</span></h3>
+      </div>
+      <div class="What">
+        <h4>What is it?</h4>
+        <p>
+          Aldebaran is a <strong>red giant</strong> in the constellation Taurus (Latin for "bull"). If you look at a pictorial representation of the constellation, Aldebaran would be the “eye” of the bull.
+        </p>
+        <p>
+        Aldebaran has a mass similar to our Sun’s, but it is much larger in radius.
+        </p>
+        <p class="constellation_para">
+          <a class="taurus_const constellation_link" href="#">See where the star Aldebaran appears in the constellation Taurus</a>
+        </p>
+      </div>
+      <div class="Before">
+        <h4>Where did it come from?</h4>
+        <p>
+          Before Aldebaran reached its current stage, it was a <strong>main-sequence star</strong>, just a little bit more massive than our Sun. As a main-sequence star, it fused <a data-toggle="modal" href="#objectModal">hydrogen</a> in its core to <a data-toggle="modal" href="#objectModal">helium</a>, but the hydrogen in its core has run out, and fusion temporarily stopped. 
+        </p>
+        <p>
+          Without hydrogen fusion, Aldebaran stopped generating outward pressure to balance against the inward pull of gravity, causing more gas to fall inward toward the core. This triggered a new, thin layer of <a data-toggle="modal" href="#objectModal">hydrogen</a> just outside the star’s core to fuse <a data-toggle="modal" href="#objectModal">hydrogen</a> to <a data-toggle="modal" href="#objectModal">helium</a>.
+        </p>
+      </div>
+      <div class="Process">
+        <h4>What is happening now?</h4>
+        <p>
+          This sudden burst of new energy pushed the outer layers of the star outward rapidly, causing Aldebaran to grow to many times its original size. The surface temperature cooled, reddening the color of the star.
+        </p>
+        <p>
+          Meanwhile, as the core continued to contract under its own gravity, it eventually became hot enough to begin fusing <a data-toggle="modal" href="#objectModal">helium</a> to <a data-toggle="modal" href="#objectModal">carbon</a> (which requires a higher temperature than fusing <a data-toggle="modal" href="#objectModal">hydrogen</a> to <a data-toggle="modal" href="#objectModal">helium</a>).
+        </p>
+      </div>
+      <div class="Elements">
+        <h4>Element formation</h4>
+        <p>
+          <a data-toggle="modal" href="#objectModal">Helium</a> atoms in the core are fusing to create <a data-toggle="modal" href="#objectModal">carbon</a>. <a data-toggle="modal" href="#objectModal">Hydrogen</a> is fusing to <a data-toggle="modal" href="#objectModal">helium</a> in a shell just outside the core.
+        </p>
+        <ul>
+          <li><a data-toggle="modal" href="#objectModal">He</a> &#8594; <a data-toggle="modal" href="#objectModal">C</a> (in core)</li>
+          <li><a data-toggle="modal" href="#objectModal">H</a> &#8594; <a data-toggle="modal" href="#objectModal">He</a> (in shell just outside core)</li>
+        </ul>
+        <p>
+        (Many other elements heavier than <a data-toggle="modal" href="#objectModal">iron</a> are being created in the outer layers of the red giant through something called the slow neutron-capture process, or just "s-process".)
+        </p>
+      </div>
+      <div class="After">
+        <h4>What's next?</h4>
+        <p>
+          After the <a data-toggle="modal" href="#objectModal">helium</a> in the core runs out, nuclear fusion in the core will stop. Gravity will continue to compress the core of the star into a dense, bright object. Winds will blow the outer layers of gas outward from the core, leaving a <strong>planetary nebula + white dwarf</strong>.
+        </p>
+      </div>
+      <div class="Properties">
+        <h4>Properties / Characteristics</h4>
+        <ul>
+          <li><strong>Distance from Earth:</strong> 65 light years (6.1 x 10<sup>14</sup> km)</li>
+          <li><strong>Radius:</strong> 44 solar radii (3.1 x 10<sup>7</sup> km)</li>
+          <li><strong>Mass:</strong> 1.2 solar masses (2.3 x 10<sup>30</sup> kg)</li>
+          <li><strong>Temperature (surface):</strong> 3,600&#176;C</li>
+        </ul>
+      </div>
+      <div class="Dive">
+        <h4>Dive deeper</h4>
+        <p>
+        </p>
+      </div>
+    </Description>
+  </Place>
+
 
   <Place MSRCommunityId="0" MSRComponentId="0" Permission="0" Name="The Ring Nebula (M57)" DataSetType="Sky" RA="18.893055555555591" Dec="33.0283333333333" Constellation="LYR" Classification="Nebula" Magnitude="0" Distance="0" ZoomLevel="0.565" Rotation="0" Angle="0" DomeAlt="0" DomeAz="0" Opacity="100" AngularSize="0.565">
     <Target>ringnebula</Target>
@@ -397,76 +473,6 @@
   </Place>
 
 
-  <Place MSRCommunityId="0" MSRComponentId="0" Permission="0" Name="Aldebaran" DataSetType="Sky" RA="4.5986111113333337" Dec="16.50916667" Constellation="TAU" Classification="Star" Magnitude="0.85" Distance="0" ZoomLevel="-1" Rotation="0" Angle="0" DomeAlt="0" DomeAz="0" Opacity="100" AngularSize="-1">
-    <ImageSet FOV="4">
-      <Target>aldebaranstar</Target>
-      <ThumbnailUrl>aldebaran_thumbnail.png</ThumbnailUrl>
-    </ImageSet>
-    <Description Title="Aldebaran">
-      <div class="Thumbnail">
-        Aldebaran
-      </div>
-      <div class="Name">
-        <h3>Aldebaran <span class="stagename">red giant</span></h3>
-      </div>
-      <div class="What">
-        <h4>What is it?</h4>
-        <p>
-          Aldebaran is a <strong>red giant</strong> in the constellation Taurus, which is latin for bull. If you look at a pictoral representation of the constellation, Aldebaran would be the “eye” of the bull.
-        </p>
-        <p class="constellation_para">
-          <a class="taurus_const constellation_link" href="#">See where the star Aldebaran appears in the constellation Taurus</a>
-        </p>
-      </div>
-      <div class="Before">
-        <h4>Where did it come from?</h4>
-        <p>
-          Before Aldebaran reached its current stage, it was a <strong>medium-sized main-sequence star</strong>, similar in size to our Sun. As a main-sequence star, it burned <a data-toggle="modal" href="#objectModal">hydrogen</a> fuel in its core, which fused into <a data-toggle="modal" href="#objectModal">helium</a>. 
-        </p>
-      </div>
-      <div class="Process">
-        <h4>What is happening now?</h4>
-        <p>
-          At this point, Aldebaran has already run out of <a data-toggle="modal" href="#objectModal">hydrogen</a> in its core. Without this nuclear fuel, Aldebaran stopped generating outward pressure to balance against the inward pull of gravity, causing more gas to fall inward toward the core. This triggered a new, thin layer of <a data-toggle="modal" href="#objectModal">hydrogen</a> just outside the star’s core to fuse <a data-toggle="modal" href="#objectModal">hydrogen</a> to <a data-toggle="modal" href="#objectModal">helium</a>.
-        </p>
-        <p>
-          This sudden burst of new energy pushed the outer layers of the star outward rapidly, causing Aldebaran to grow to many times its original size. The surface temperature cooled, reddening the color of the star.
-        </p>
-        <p>
-          Meanwhile, as the core continued to contract under its own gravity, eventually, enough pressure built in the core to begin fusing <a data-toggle="modal" href="#objectModal">helium</a> to <a data-toggle="modal" href="#objectModal">carbon</a> (which takes more pressure than fusing <a data-toggle="modal" href="#objectModal">hydrogen</a> to <a data-toggle="modal" href="#objectModal">helium</a>).
-        </p>
-      </div>
-      <div class="Elements">
-        <h4>Element formation</h4>
-        <p>
-          <a data-toggle="modal" href="#objectModal">Helium</a> atoms in the core are fusing to create <a data-toggle="modal" href="#objectModal">carbon</a>. The newly-formed <a data-toggle="modal" href="#objectModal">carbon</a> will remain in the core for the duration of this stellar stage.
-        </p>
-        <ul>
-          <li><a data-toggle="modal" href="#objectModal">He</a> &#8594; <a data-toggle="modal" href="#objectModal">C</a></li>
-        </ul>
-      </div>
-      <div class="After">
-        <h4>What's next?</h4>
-        <p>
-          After the <a data-toggle="modal" href="#objectModal">helium</a> in the core runs out, nuclear fusion will no longer occur. Gravity will continue to compress the core of the star into a dense, bright object. Winds will blow the outer layers of gas outward from the core, leaving a <strong>planetary nebula + white dwarf</strong>.
-        </p>
-      </div>
-      <div class="Properties">
-        <h4>Properties / Characteristics</h4>
-        <ul>
-          <li><strong>Distance from Earth:</strong> 65 light years (6.1 x 10<sup>14</sup> km</li>
-          <li><strong>Radius:</strong> 44 solar radii (3.1 x 10<sup>7</sup> km)</li>
-          <li><strong>Mass:</strong> 1.2 solar masses (2.3 x 10<sup>30</sup> kg)</li>
-          <li><strong>Temperature (surface):</strong> 3,900 K</li>
-        </ul>
-      </div>
-      <div class="Dive">
-        <h4>Dive deeper</h4>
-        <p>
-        </p>
-      </div>
-    </Description>
-  </Place>
 
 
   <Place MSRCommunityId="0" MSRComponentId="0" Permission="0" Name="Betelgeuse" DataSetType="Sky" RA="5.9194444446666665" Dec="7.406944444" Constellation="ORI" Classification="Star" Magnitude="0.5" Distance="0" ZoomLevel="-1" Rotation="0" Angle="0" DomeAlt="0" DomeAz="0" Opacity="100" AngularSize="-1">
