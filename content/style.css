@@ -280,10 +280,13 @@ a, a:hover {
 	bottom: 10px;
 	left: 5%;
     width: 90%;
+    display: flex;
+    align-items: center;
 }
 
-#colo_left{
-    float: left;
+#colo_left {
+    min-width: 70px;
+    padding-bottom: 5px;
 }
 
 #colophon p {
