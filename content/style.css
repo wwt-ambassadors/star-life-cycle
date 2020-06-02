@@ -169,6 +169,17 @@ a, a:hover {
     border-radius: 25px;
 }
 
+@media screen and (max-width: 976px) {
+    #zoom_pan_container {
+        display: none;
+    }
+}
+
+#zoom_pan_instrux strong {
+    font-family: monospace, Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+    color: #DDDDDD;
+}
+
 
 
 
@@ -187,6 +198,8 @@ a, a:hover {
 #begin_container {
     margin-top: 50px;
 	text-align: center;
+    pointer-events: none;
+    user-select: none;
 }
 
 #description_container {
@@ -228,7 +241,7 @@ a, a:hover {
 #description_box i {
 	position: absolute;
 	bottom: 10px;
-	right: 25px;
+	right: -30px;
     font-family: "Font Awesome 5 Free";
 	font-style: normal;
 }
@@ -256,8 +269,22 @@ a, a:hover {
     background-color: #41BEEC;
     color: #000;
 }
+
+.elements li {
+    font-size: calc(15px + 0.6vw);
+}
+
 .topbullet {
     margin: 10px 0 5px;
+    color: #8AFF8A;
+}
+
+#description_box ul strong {
+    padding-right: 6px;
+}
+
+#description_box .dive p {
+    margin-bottom: 2em;
 }
 
 #scroll_arrow {
