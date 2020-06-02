@@ -213,7 +213,7 @@ a, a:hover {
 
 #description_box .row h4 {
     margin-bottom: 4px;
-	color: #8aff8a;
+	color: #EFA928;  /* used to be #8AFF8A */
     font-size: calc(10px + 1.25vw);
 }
 
@@ -278,11 +278,16 @@ a, a:hover {
 #colophon {
 	position: absolute;
 	bottom: 10px;
-	left: 15px;
+	left: 5%;
+    width: 90%;
+}
+
+#colo_left{
+    float: left;
 }
 
 #colophon p {
-  font-size: 0.5em;
+  font-size: 9px; /* used to 0.5em */
   color: #BBB;
 }
 
@@ -296,3 +301,7 @@ a, a:hover {
     vertical-align: middle;
     margin-right: 5px;
 }
+
+
+
+
