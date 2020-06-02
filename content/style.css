@@ -135,8 +135,7 @@ a, a:hover {
     border-right: 3px solid #44ff44;
 	font-size: calc(12px + 1vw); 
 	font-weight: 700;
-	user-select: none;
-	-webkit-user-select: none;
+    pointer-events: none;
 }
 
 #reset_target {
@@ -295,5 +294,5 @@ a, a:hover {
     width: 1rem;
     height: 1rem;
     vertical-align: middle;
-    margin: 0 2px;
+    margin-right: 5px;
 }
