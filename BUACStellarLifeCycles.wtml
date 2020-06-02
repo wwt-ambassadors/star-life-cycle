@@ -61,9 +61,9 @@
         <h4>Properties / Characteristics</h4>
         <ul>
           <li><strong>Distance from Earth:</strong> 1,300 light years (1.2 &#215; 10<sup>16</sup> km)</li>
-          <li><strong>Size:</strong> 24 light years across (2.3 &#215; 10<sup>14</sup> km)</li>
+          <li><strong>Size (across):</strong> 24 light years across (2.3 &#215; 10<sup>14</sup> km)</li>
           <li><strong>Mass:</strong> 2000 solar masses (4 &#215; 10<sup>33</sup> kg)</li>
-          <li><strong>Temperature:</strong> variable in the cloud, ranges from -260&#176;C to 10,000&#176;C</li>
+          <li><strong>Temperature (cloud):</strong> ranges from -260&#176;C to 10,000&#176;C</li>
         </ul>
       </div>
       <div class="Dive">
@@ -142,10 +142,10 @@
       <div class="Properties">
         <h4>Properties / Characteristics</h4>
         <ul>
-          <li>Distance from Earth: 1300 light years (1.2 &#215; 10<sup>16</sup> km)</li>
-          <li>Size: &#8764;3 solar radii (2 &#215; 10<sup>6</sup> km)</li>
-          <li>Mass: &#8764;0.5 solar mass (1 &#215; 10<sup>30</sup> kg)</li>
-          <li>Core Temperature: 10<sup>6</sup> &#176;C</li>
+          <li><strong>Distance from Earth:</strong> 1300 light years (1.2 &#215; 10<sup>16</sup> km)</li>
+          <li><strong>Size (across):</strong> &#8764;3 solar radii (2 &#215; 10<sup>6</sup> km)</li>
+          <li><strong>Mass:</strong> &#8764;0.5 solar mass (1 &#215; 10<sup>30</sup> kg)</li>
+          <li><strong>Temperature (core):</strong> 10<sup>6</sup> &#176;C</li>
         </ul>
       </div>
       <div class="Dive">
@@ -212,7 +212,7 @@
         <h4>Properties / Characteristics</h4>
         <ul>
           <li><strong>Distance from Earth:</strong> 1 Astronomical Unit (1.5 &#215; 10<sup>8</sup> km)</li>
-          <li><strong>Radius:</strong> 1 solar radius (7 &#215; 10<sup>5</sup> km)</li>
+          <li><strong>Size (radius):</strong> 1 solar radius (7 &#215; 10<sup>5</sup> km)</li>
           <li><strong>Mass:</strong> 1 solar mass (2 &#215; 10<sup>30</sup> kg)</li>
           <li><strong>Temperature (surface):</strong> 5,500&#176;C</li>
         </ul>
@@ -287,7 +287,7 @@
         <h4>Properties / Characteristics</h4>
         <ul>
           <li><strong>Distance from Earth:</strong> 1300 light years (1.2 &#215; 10<sup>16</sup> km)</li>
-          <li><strong>Radius:</strong> 5.6 solar radii (3.9 &#215; 10<sup>6</sup> km)</li>
+          <li><strong>Size (radius):</strong> 5.6 solar radii (3.9 &#215; 10<sup>6</sup> km)</li>
           <li><strong>Mass:</strong> 18 solar masses (4 &#215; 10<sup>31</sup> kg)</li>
           <li><strong>Temperature (surface):</strong> 30,000&#176;C</li>
         </ul>
@@ -316,7 +316,7 @@
       <div class="What">
         <h4>What is it?</h4>
         <p>
-          Aldebaran is a <strong>red giant</strong> in the constellation Taurus (Latin for "bull"). If you look at a pictorial representation of the constellation, Aldebaran would be the “eye” of the bull.
+          Aldebaran is a <strong>red giant</strong> in the constellation Taurus (Latin for "bull"). In many pictorial representations of the constellation, Aldebaran represents the “eye” of the bull.
         </p>
         <p>
         Aldebaran has a mass similar to our Sun’s, but it is much larger in radius.
@@ -353,7 +353,7 @@
           <li><a data-toggle="modal" href="#objectModal">H</a> &#8594; <a data-toggle="modal" href="#objectModal">He</a> (in shell just outside core)</li>
         </ul>
         <p>
-        (Many other elements heavier than <a data-toggle="modal" href="#objectModal">iron</a> are being created in the outer layers of the red giant through something called the slow neutron-capture process, or just "s-process".)
+        (Many other elements heavier than <a data-toggle="modal" href="#objectModal">iron</a> are being created in the outer layers of the red giant through something called the <em>slow neutron-capture process</em>, or just <em>s-process</em>.)
         </p>
       </div>
       <div class="After">
@@ -366,15 +366,10 @@
         <h4>Properties / Characteristics</h4>
         <ul>
           <li><strong>Distance from Earth:</strong> 65 light years (6.1 x 10<sup>14</sup> km)</li>
-          <li><strong>Radius:</strong> 44 solar radii (3.1 x 10<sup>7</sup> km)</li>
+          <li><strong>Size (radius):</strong> 44 solar radii (3.1 x 10<sup>7</sup> km)</li>
           <li><strong>Mass:</strong> 1.2 solar masses (2.3 x 10<sup>30</sup> kg)</li>
           <li><strong>Temperature (surface):</strong> 3,600&#176;C</li>
         </ul>
-      </div>
-      <div class="Dive">
-        <h4>Dive deeper</h4>
-        <p>
-        </p>
       </div>
     </Description>
   </Place>
@@ -395,7 +390,7 @@
       <div class="What">
         <h4>What is it?</h4>
         <p>
-          Betelgeuse (pronounced “Beetlejuice”) is a <strong>supermassive red giant</strong> and is the 2<sup>nd</sup> brightest star in the constellation Orion. If Betelgeuse replaced the Sun in our Solar System, it would swallow up all the inner planets Mercury, Venus, Earth, and Mars, and likely Jupiter too!
+          Betelgeuse (pronounced “Beetlejuice”) is a <strong>supermassive red giant</strong> and is the 2<sup>nd</sup> brightest star in the constellation Orion. If Betelgeuse replaced the Sun in our Solar System, it would swallow up all the inner planets: Mercury, Venus, Earth and Mars, and likely Jupiter too!
         </p>
         <p class="constellation_para">
           <a class="orion_const constellation_link" href="#">See where the star Betelgeuse appears in the constellation Orion</a>
@@ -419,7 +414,7 @@
           Meanwhile, gravity continued to contract the core and heat it up. The core eventually became hot enough to begin fusing <a data-toggle="modal" href="#objectModal">helium</a> to <a data-toggle="modal" href="#objectModal">carbon</a>, allowing the star to continue shining. The radiation pressure produced by this new fusion process also pushes against the inward pull of gravity, keeping the star in balance for a short period of time.
         </p>
         <p>
-          When supermassive stars like Betelgeuse run out of <a data-toggle="modal" href="#objectModal">helium</a> in the core, there is enough gravity to keep contracting the core and heating it up further. This allows the star to fuse heavier and heavier elements in the core, including <a data-toggle="modal" href="#objectModal">neon</a>, <a data-toggle="modal" href="#objectModal">oxygen</a>, <a data-toggle="modal" href="#objectModal">silicon</a>, and <a data-toggle="modal" href="#objectModal">iron</a>. As fusion continues, successive shells of different elements ignite outside the core, and the star end up layered like an onion, <a href="https://chandra.cfa.harvard.edu/graphics/xray_astro/pre_snr.jpg" target="_new">as shown in this image</a>.
+          When supermassive stars like Betelgeuse run out of <a data-toggle="modal" href="#objectModal">helium</a> in the core, there is enough gravity to keep contracting the core and heating it up further. This allows the star to fuse heavier and heavier elements in the core, including <a data-toggle="modal" href="#objectModal">neon</a>, <a data-toggle="modal" href="#objectModal">oxygen</a>, <a data-toggle="modal" href="#objectModal">silicon</a>, and <a data-toggle="modal" href="#objectModal">iron</a>. As fusion continues, successive shells of different elements ignite outside the core, and the star ends up layered like an onion, <a href="https://chandra.cfa.harvard.edu/graphics/xray_astro/pre_snr.jpg" target="_new">as shown in this image</a>.
         </p>
       </div>
       <div class="Elements">
@@ -445,7 +440,7 @@
         <h4>Properties / Characteristics</h4>
         <ul>
           <li><strong>Distance from Earth:</strong> 65 light years (6.1 &#215; 10<sup>14</sup> km)</li>
-          <li><strong>Radius:</strong> 890 solar radii (6.2 &#215; 10<sup>8</sup> km)</li>
+          <li><strong>Size (radius):</strong> 890 solar radii (6.2 &#215; 10<sup>8</sup> km)</li>
           <li><strong>Mass:</strong> 10-20 solar masses (2-4 &#215; 10<sup>31</sup> kg)</li>
           <li><strong>Temperature (surface):</strong> 3,300&#176;C</li>
         </ul>
@@ -534,16 +529,11 @@
           </ul>
           <li class="topbullet">White dwarf</li>
           <ul>
-            <li><strong>Radius:</strong> 0.3 solar radii (1.3 &#215; 10<sup>4</sup> km)</li>
+            <li><strong>Size (radius):</strong> 0.3 solar radii (1.3 &#215; 10<sup>4</sup> km)</li>
             <li><strong>Mass:</strong> 0.6 solar masses</li>
             <li><strong>Temperature (surface):</strong> 112,000&#176;C</li>
           </ul>
         </ul>
-      </div>
-      <div class="Dive">
-        <h4>Dive deeper</h4>
-        <p>
-        </p>
       </div>
     </Description>
   </Place>
@@ -577,7 +567,7 @@
       <div class="Before">
         <h4>Where did it come from?</h4>
         <p>
-          Before the Crab Nebula reached its current stage, it was a <strong>supermassive red giant</strong> that fused <a data-toggle="modal" href="#objectModal">helium</a> to <a data-toggle="modal" href="#objectModal">carbon</a>, then <a data-toggle="modal" href="#objectModal">carbon</a> to <a data-toggle="modal" href="#objectModal">neon</a>, then <a data-toggle="modal" href="#objectModal">oxygen</a> to <a data-toggle="modal" href="#objectModal">silicon</a>, then <a data-toggle="modal" href="#objectModal">silicon</a> to <a data-toggle="modal" href="#objectModal">iron</a> in its core.
+          Before the Crab Nebula reached its current stage, it was a <strong>supermassive red giant</strong> that fused <a data-toggle="modal" href="#objectModal">helium</a> to <a data-toggle="modal" href="#objectModal">carbon</a>, then <a data-toggle="modal" href="#objectModal">carbon</a> to <a data-toggle="modal" href="#objectModal">neon</a>, then <a data-toggle="modal" href="#objectModal">neon</a> to <a data-toggle="modal" href="#objectModal">oxygen</a>, then <a data-toggle="modal" href="#objectModal">oxygen</a> to <a data-toggle="modal" href="#objectModal">silicon</a>, then <a data-toggle="modal" href="#objectModal">silicon</a> to <a data-toggle="modal" href="#objectModal">iron</a> in its core.
         </p>
         <p>
           Fusion reactions with <a data-toggle="modal" href="#objectModal">iron</a> do not release energy, so once the <a data-toggle="modal" href="#objectModal">silicon</a> in the core ran out, no more fusion processes could occur, and there was no longer any way to counteract the immense gravity of the star. Gravity compressed the core of the star, and eventually, an object more massive than our Sun was compressed into the size of a city!
@@ -589,7 +579,7 @@
       <div class="Process">
         <h4>What is happening now?</h4>
         <p>
-          When the outer layers of the star hit the dense core, an explosion blew apart the outer layers of the star. The immense amount of energy from this explosion fueled a process called “rapid neutron capture,” (or r-process) which created elements shown in red (that were not made during the red supergiant phase) on this <a href="https://chandra.si.edu/photo/2017/casa_life/casa_life_periodic.jpg" target="_new">periodic table</a>.
+          When the outer layers of the star hit the dense core, an explosion blew apart the outer layers of the star. The immense amount of energy from this explosion fueled a process called <em>rapid neutron capture</em>, (or <em>r-process</em>) which created elements shown in red (that were not made during the red supergiant phase) on this <a href="https://chandra.si.edu/photo/2017/casa_life/casa_life_periodic.jpg" target="_new">periodic table</a>.
         </p>
       </div>
       <div class="Elements">
@@ -621,7 +611,7 @@
           </ul>
           <li class="topbullet">Neutron star</li>
           <ul>
-            <li><strong>Radius:</strong> 10km (the star's diameter is only about 6 miles)</li>
+            <li><strong>Size (radius):</strong> 10 km (the star's diameter is only about 6 miles)</li>
             <li><strong>Mass:</strong> 1.4-2 solar masses</li>
             <li><strong>Temperature (surface):</strong> 1,600,000&#176;C</li>
           </ul>

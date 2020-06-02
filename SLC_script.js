@@ -48,7 +48,7 @@
       // store each of the Place objects from the WTML file in places
       var places = $(xml).find('Place');
       var thumbTemplate = $('<div class="col_thumb"><a href="javascript:void(0)" class="thumbnail border_white"><img src=""/><div class="thumbname">example</div</a></div>');
-      var descTemplate = $('<div class="obj_desc container-fluid"><div class="row"><div class="name col-xs-12 col-md-12 col-lg-12">name</div><div class="what col-xs-12 col-md-12 col-lg-12">what</div><div class="before col-xs-12 col-md-12 col-lg-12">before</div><div class="process col-xs-12 col-md-12 col-lg-12">process</div><div class="elements col-xs-12 col-md-12 col-lg-12">elements</div><div class="after col-xs-12 col-md-12 col-lg-12">after</div><div class="properties col-xs-12 col-md-12 col-lg-12">properties</div><div class="dive col-xs-12 col-md-12 col-lg-12">dive deeper</div></div></div>');
+      var descTemplate = $('<div class="obj_desc container-fluid"><div class="row"><div class="name col-xs-12 col-md-12 col-lg-12"></div><div class="what col-xs-12 col-md-12 col-lg-12"></div><div class="before col-xs-12 col-md-12 col-lg-12"></div><div class="process col-xs-12 col-md-12 col-lg-12"></div><div class="elements col-xs-12 col-md-12 col-lg-12"></div><div class="after col-xs-12 col-md-12 col-lg-12"></div><div class="properties col-xs-12 col-md-12 col-lg-12"></div><div class="dive col-xs-12 col-md-12 col-lg-12"></div></div></div>');
       var constellations = $(xml).find('Constellation');
       var cmb = $(xml).find('CMB');
       
@@ -626,6 +626,9 @@
     window.addEventListener("keydown", function (event) {
       // "must check the deprecated keyCode property for Qt"
       if (zoomCodes.hasOwnProperty(event.code) || zoomCodes.hasOwnProperty(event.keyCode)) {
+        // remove the zoom_pan instructions
+        $("#zoom_pan_instrux").delay(5000).fadeOut(1000);
+
         var action = zoomCodes.hasOwnProperty(event.code) ? zoomCodes[event.code] : zoomCodes[event.keyCode];
 
         if (event.shiftKey)
@@ -637,6 +640,9 @@
       }
 
       if (moveCodes.hasOwnProperty(event.code) || moveCodes.hasOwnProperty(event.keyCode)) {
+        // remove the zoom_pan instructions
+        $("#zoom_pan_instrux").delay(5000).fadeOut(1000);
+
         var action = moveCodes.hasOwnProperty(event.code) ? moveCodes[event.code] : moveCodes[event.keyCode];
 
         if (event.shiftKey)
