@@ -11,7 +11,7 @@
         <ThumbnailUrl>http://www.worldwidetelescope.org/wwtweb/thumbnail.aspx?name=1154245897</ThumbnailUrl>
       </ImageSet>
     </ForegroundImageSet>
-    <Description Title="The Great Orion Nebula">
+    <Description Title="A star-forming nebula">
       <div class="Thumbnail">
         Orion Nebula
       </div>
@@ -84,7 +84,7 @@
         <ThumbnailUrl>HOPS68_thumbnail.jpg</ThumbnailUrl>
       </ImageSet>
     </ForegroundImageSet>
-    <Description Title="Inside the Orion Nebula: HOPS-68">
+    <Description Title="A protostar">
       <div class="Thumbnail">
         HOPS-68
       </div>
@@ -162,17 +162,17 @@
     <Target>sunstar</Target>
     <ThumbnailUrl>http://www.worldwidetelescope.org/wwtweb/thumbnail.aspx?name=sun</ThumbnailUrl>
     </ImageSet>
-    <Description Title="Our Sun">
+    <Description Title="A main-sequence star (medium mass)">
       <div class="Thumbnail">
         Sun
       </div>
       <div class="Name">
-        <h3>Our Sun <span class="stagename">main-sequence star</span></h3>
+        <h3>Our Sun <span class="stagename">main-sequence star (medium mass)</span></h3>
       </div>
       <div class="What">
         <h4>What is it?</h4>
         <p>
-          Our Sun is a <strong>main-sequence star</strong>, a large glowing sphere of gas held together by gravity. It is the center of our Solar System, and it shines its light on all the planets, including Earth, and other objects like moons and asteroids. Our Sun is about 5 billion years old, and models predict that it will spend another 5 billion years in its current stage.
+          Our Sun is a <strong>medium-mass main-sequence star</strong>, a large glowing sphere of gas held together by gravity. It is the center of our Solar System, and it shines its light on all the planets, including Earth, and other objects like moons and asteroids. Our Sun is about 5 billion years old, and models predict that it will spend another 5 billion years in its current stage.
         </p>
       </div>
       <div class="Before">
@@ -231,17 +231,17 @@
       <Target>sigmaorionis</Target>
       <ThumbnailUrl>sigma_orionis_thumbnail.png</ThumbnailUrl>
     </ImageSet>
-    <Description Title="Sigma Orionis">
+    <Description Title="A main sequence star (high mass)">
       <div class="Thumbnail">
         Sigma Orionis
       </div>
       <div class="Name">
-        <h3>Sigma Orionis <span class="stagename">supermassive main-sequence star</span></h3>
+        <h3>Sigma Orionis <span class="stagename">main-sequence star (high mass)</span></h3>
       </div>
       <div class="What">
         <h4>What is it?</h4>
         <p>
-          Sigma Orionis is a <strong>supermassive main-sequence star</strong>, an enormous glowing sphere of gas held together by gravity. It emits 42,000 times more power than our Sun, and it is so hot that it appears blue. Sigma Orionis is about 300,000 years old.
+          Sigma Orionis is a <strong>high-mass main-sequence star</strong>, an enormous glowing sphere of gas held together by gravity. It emits 42,000 times more power than our Sun, and it is so hot that it appears blue. Sigma Orionis is about 300,000 years old.
         </p>
         <p>
           (The designation “sigma,” the 18th letter in the Greek alphabet, tells us that Sigma Orionis is the 18th brightest star in the constellation, as seen from Earth.)
@@ -280,7 +280,7 @@
       <div class="After">
         <h4>What's next?</h4>
         <ul>
-          After Sigma Orionis runs out of <a data-toggle="modal" href="#objectModal">hydrogen</a> in its core, it will become a <strong>supermassive red giant</strong>. At this point, the star will grow significantly in size, and the core will reach sufficiently high temperatures to begin fusing <a data-toggle="modal" href="#objectModal">helium</a> into <a data-toggle="modal" href="#objectModal">carbon</a>, and eventually heavier elements as well, like  <a data-toggle="modal" href="#objectModal">neon</a>, <a data-toggle="modal" href="#objectModal">oxygen</a>, <a data-toggle="modal" href="#objectModal">silicon</a>, and <a data-toggle="modal" href="#objectModal">iron</a>.
+          After Sigma Orionis runs out of <a data-toggle="modal" href="#objectModal">hydrogen</a> in its core, it will become a <strong>red supergiant</strong>. At this point, the star will grow significantly in size, and the core will reach sufficiently high temperatures to begin fusing <a data-toggle="modal" href="#objectModal">helium</a> into <a data-toggle="modal" href="#objectModal">carbon</a>, and eventually heavier elements as well, like  <a data-toggle="modal" href="#objectModal">neon</a>, <a data-toggle="modal" href="#objectModal">oxygen</a>, <a data-toggle="modal" href="#objectModal">silicon</a>, and <a data-toggle="modal" href="#objectModal">iron</a>.
         </ul>
       </div>
       <div class="Properties">
@@ -306,7 +306,7 @@
       <Target>aldebaranstar</Target>
       <ThumbnailUrl>aldebaran_thumbnail.png</ThumbnailUrl>
     </ImageSet>
-    <Description Title="Aldebaran">
+    <Description Title="A red giant">
       <div class="Thumbnail">
         Aldebaran
       </div>
@@ -328,7 +328,7 @@
       <div class="Before">
         <h4>Where did it come from?</h4>
         <p>
-          Before Aldebaran reached its current stage, it was a <strong>main-sequence star</strong>, just a little bit more massive than our Sun. As a main-sequence star, it fused <a data-toggle="modal" href="#objectModal">hydrogen</a> in its core to <a data-toggle="modal" href="#objectModal">helium</a>, but the hydrogen in its core has run out, and fusion temporarily stopped. 
+          Before Aldebaran reached its current stage, it was a <strong>medium-mass main-sequence star</strong>, just a little bit more massive than our Sun. As a main-sequence star, it fused <a data-toggle="modal" href="#objectModal">hydrogen</a> in its core to <a data-toggle="modal" href="#objectModal">helium</a>, but the hydrogen in its core has run out, and fusion temporarily stopped. 
         </p>
         <p>
           Without hydrogen fusion, Aldebaran stopped generating outward pressure to balance against the inward pull of gravity, causing more gas to fall inward toward the core. This triggered a new, thin layer of gas just outside the star’s core to fuse <a data-toggle="modal" href="#objectModal">hydrogen</a> to <a data-toggle="modal" href="#objectModal">helium</a>.
@@ -380,17 +380,17 @@
       <Target>betelgeusestar</Target>
       <ThumbnailUrl>betelgeuse_thumbnail.png</ThumbnailUrl>
     </ImageSet>
-    <Description Title="Betelgeuse (pronounced Beetlejuice)">
+    <Description Title="A red supergiant">
       <div class="Thumbnail">
         Betelgeuse
       </div>
       <div class="Name">
-        <h3>Betelgeuse <span class="stagename">supermassive red giant</span></h3>
+        <h3>Betelgeuse <span class="stagename">red supergiant</span></h3>
       </div>
       <div class="What">
         <h4>What is it?</h4>
         <p>
-          Betelgeuse (pronounced “Beetlejuice”) is a <strong>supermassive red giant</strong> and is the 2<sup>nd</sup> brightest star in the constellation Orion. If Betelgeuse replaced the Sun in our Solar System, it would swallow up all the inner planets: Mercury, Venus, Earth and Mars, and likely Jupiter too!
+          Betelgeuse (pronounced “Beetlejuice”) is a <strong>red supergiant</strong> and is the 2<sup>nd</sup> brightest star in the constellation Orion. If Betelgeuse replaced the Sun in our Solar System, it would swallow up all the inner planets: Mercury, Venus, Earth and Mars, and likely Jupiter too!
         </p>
         <p class="constellation_para">
           <a class="orion_const constellation_link" href="#">See where the star Betelgeuse appears in the constellation Orion</a>
@@ -399,7 +399,7 @@
       <div class="Before">
         <h4>Where did it come from?</h4>
         <p>
-          Before Betelgeuse reached its current stage, it was a <strong>supermassive main-sequence star</strong>, 10 to 20 times more massive than our Sun. As a main-sequence star, it fused <a data-toggle="modal" href="#objectModal">hydrogen</a> in its core into <a data-toggle="modal" href="#objectModal">helium</a>, but the <a data-toggle="modal" href="#objectModal">hydrogen</a> in the core has run out.
+          Before Betelgeuse reached its current stage, it was a <strong>high-mass main-sequence star</strong>, 10 to 20 times more massive than our Sun. As a main-sequence star, it fused <a data-toggle="modal" href="#objectModal">hydrogen</a> in its core into <a data-toggle="modal" href="#objectModal">helium</a>, but the <a data-toggle="modal" href="#objectModal">hydrogen</a> in the core has run out.
         </p>
         <p>
           Without <a data-toggle="modal" href="#objectModal">hydrogen</a> fusion, Betelgeuse stopped generating outward pressure to balance against the inward pull of gravity, causing more gas to fall inward toward the core. This triggered a new, thin layer of gas just outside the star’s core to fuse <a data-toggle="modal" href="#objectModal">hydrogen</a> to <a data-toggle="modal" href="#objectModal">helium</a>.
@@ -414,7 +414,7 @@
           Meanwhile, gravity continued to contract the core and heat it up. The core eventually became hot enough to begin fusing <a data-toggle="modal" href="#objectModal">helium</a> to <a data-toggle="modal" href="#objectModal">carbon</a>, allowing the star to continue shining. The radiation pressure produced by this new fusion process also pushes against the inward pull of gravity, keeping the star in balance for a short period of time.
         </p>
         <p>
-          When supermassive stars like Betelgeuse run out of <a data-toggle="modal" href="#objectModal">helium</a> in the core, there is enough gravity to keep contracting the core and heating it up further. This allows the star to fuse heavier and heavier elements in the core, including <a data-toggle="modal" href="#objectModal">neon</a>, <a data-toggle="modal" href="#objectModal">oxygen</a>, <a data-toggle="modal" href="#objectModal">silicon</a>, and <a data-toggle="modal" href="#objectModal">iron</a>. As fusion continues, successive shells of different elements ignite outside the core, and the star ends up layered like an onion, <a href="https://chandra.cfa.harvard.edu/graphics/xray_astro/pre_snr.jpg" target="_new">as shown in this image</a>.
+          When high-mass stars like Betelgeuse run out of <a data-toggle="modal" href="#objectModal">helium</a> in the core, there is enough gravity to keep contracting the core and heating it up further. This allows the star to fuse heavier and heavier elements in the core, including <a data-toggle="modal" href="#objectModal">neon</a>, <a data-toggle="modal" href="#objectModal">oxygen</a>, <a data-toggle="modal" href="#objectModal">silicon</a>, and <a data-toggle="modal" href="#objectModal">iron</a>. As fusion continues, successive shells of different elements ignite outside the core, and the star ends up layered like an onion, <a href="https://chandra.cfa.harvard.edu/graphics/xray_astro/pre_snr.jpg" target="_new">as shown in this image</a>.
         </p>
       </div>
       <div class="Elements">
@@ -464,7 +464,7 @@
         <ThumbnailUrl>http://www.worldwidetelescope.org/wwtweb/thumbnail.aspx?name=1808329735</ThumbnailUrl>
       </ImageSet>
     </ForegroundImageSet>
-    <Description Title="Ring Nebula">
+    <Description Title="A planetary nebula and white dwarf">
       <div class="Thumbnail">
         Ring Nebula
       </div>
@@ -548,7 +548,7 @@
         <ThumbnailUrl>http://www.worldwidetelescope.org/wwtweb/thumbnail.aspx?name=912623430</ThumbnailUrl>
       </ImageSet>
     </ForegroundImageSet>
-    <Description Title="Crab Nebula">
+    <Description Title="A supernova remnant and neutron star">
       <div class="Thumbnail">
         Crab Nebula
       </div>
@@ -567,7 +567,7 @@
       <div class="Before">
         <h4>Where did it come from?</h4>
         <p>
-          Before the Crab Nebula reached its current stage, it was a <strong>supermassive red giant</strong> that fused <a data-toggle="modal" href="#objectModal">helium</a> to <a data-toggle="modal" href="#objectModal">carbon</a>, then <a data-toggle="modal" href="#objectModal">carbon</a> to <a data-toggle="modal" href="#objectModal">neon</a>, then <a data-toggle="modal" href="#objectModal">neon</a> to <a data-toggle="modal" href="#objectModal">oxygen</a>, then <a data-toggle="modal" href="#objectModal">oxygen</a> to <a data-toggle="modal" href="#objectModal">silicon</a>, then <a data-toggle="modal" href="#objectModal">silicon</a> to <a data-toggle="modal" href="#objectModal">iron</a> in its core.
+          Before the Crab Nebula reached its current stage, it was a <strong>red supergiant</strong> that fused <a data-toggle="modal" href="#objectModal">helium</a> to <a data-toggle="modal" href="#objectModal">carbon</a>, then <a data-toggle="modal" href="#objectModal">carbon</a> to <a data-toggle="modal" href="#objectModal">neon</a>, then <a data-toggle="modal" href="#objectModal">neon</a> to <a data-toggle="modal" href="#objectModal">oxygen</a>, then <a data-toggle="modal" href="#objectModal">oxygen</a> to <a data-toggle="modal" href="#objectModal">silicon</a>, then <a data-toggle="modal" href="#objectModal">silicon</a> to <a data-toggle="modal" href="#objectModal">iron</a> in its core.
         </p>
         <p>
           Fusion reactions with <a data-toggle="modal" href="#objectModal">iron</a> do not release energy, so once the <a data-toggle="modal" href="#objectModal">silicon</a> in the core ran out, no more fusion processes could occur, and there was no longer any way to counteract the immense gravity of the star. Gravity compressed the core of the star, and eventually, an object more massive than our Sun was compressed into the size of a city!
