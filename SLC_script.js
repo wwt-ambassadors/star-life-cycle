@@ -54,18 +54,6 @@
       
       places.each(function (i, pl) {
         var place = $(pl);
-        
-        // this is the pre-existing description text populator from Ron's code. Perhaps not relevant to ours
-        //   var descText = '', desc;
-        //   desc = place.find('Description').text().split('\n');
-
-        //   $.each(desc, function (i, item) {
-        //     if (item != undefined) {
-        //       descText += '<p>' + item + '</p>';
-        //     }
-        //   });
-        //   descText += '<hr><h4>Credits</h4>' + '<p><a href="' + place.find('CreditsUrl').text() + '" target=_blank >' + place.find('Credits').text() + '</p>';
-        //   end of Ron's description text code
 
         // create a temporary object of a thumbnail and of a description element from the templates above 
         var tmpthumb = thumbTemplate.clone();
@@ -175,38 +163,6 @@
               }
             });
 
-          // SHOULD BE ABLE TO REMOVE THIS BECAUSE CMB MOVED
-          // // check whether this target is the CMB
-          // } else if (place.attr('Name') == 'Cosmic Microwave Background') {
-
-          //   //disable the reset button
-          //   reset_enabled = false;
-
-          //   wwt_si.setBackgroundImageByName('Planck CMB');
-
-          //   wwt_si.gotoRaDecZoom(
-          //     parseFloat(place.attr('RA')) * 15,
-          //     place.attr('Dec'),
-          //     parseFloat(place.find('ImageSet').attr('FOV')),
-          //     false
-          //   );
-
-
-          // SHOULD BE ABLE TO REMOVE THIS BECAUSE CONSTELLATIONS MOVED
-          // check whether this target is a Constellation
-          // } else if (place.attr('Classification') == 'Constellation') {
-
-          //   wwt_si.setBackgroundImageByName('Digitized Sky Survey (Color)');
-          //   wwt_si.settings.set_showConstellationFigures(true);
-          //   wwt_si.settings.set_showConstellationLabels(true);
-
-          //   wwt_si.gotoRaDecZoom(
-          //     parseFloat(place.attr('RA')) * 15,
-          //     place.attr('Dec'),
-          //     parseFloat(place.find('ImageSet').attr('FOV')),
-          //     false
-          //   );
-
           // everything else, which includes all non-solar system celestial objects
           } else {
 
@@ -248,30 +204,8 @@
             on_click(element, true)
           });
 
-        // we'll probably be able to remove this
-        //  tmpthumb.find('i').attr({
-        //    'data-toggle': 'tooltip',
-        //    'data-placement': 'top',
-        //    title: 'Image Information'
-        //  })
-        //  .on('click', function(e) {
-        //    bootbox.dialog({
-        //      message: descText,
-        //      title: place.find('Description').attr('Title')
-        //    });
-
-        //    e.preventDefault();
-        //    e.stopPropagation();
-        //  });
-
         // Plug the set of thumbnails into the #destinationThumbs element
         $('#destinationThumbs').append(tmpthumb);
-
-        /* I don't think this code does anything, check with Peter
-        var fsThumb = tmp.clone(true).find('a');
-        fsThumb.find('label').remove();
-        $('.player-controls .btn').first().before(tmp);
-        */
           
         $("#description_container").append(tmpdesc);
 
