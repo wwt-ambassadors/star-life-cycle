@@ -7,6 +7,10 @@
 
 /* Styling for Target Object modal pop-up */
 
+.modal-dialog{
+    min-width: 80%;
+}
+
 .modal-header{
 	padding: 0;
 }
