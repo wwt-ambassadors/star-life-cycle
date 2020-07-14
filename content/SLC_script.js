@@ -133,7 +133,6 @@
           /* hide all descriptions, reset scrolls, then show description specific to this target on sgl/dbl click */
           var toggle_class = "." + place.find('Target').text().toLowerCase() + "_description";
           $("#description_box").find(".obj_desc").hide();
-          $('#begin_container').hide();
           $('#description_container').scrollTop(0).show();
             
           $(toggle_class).show();
@@ -435,12 +434,12 @@
     const moveCodes = {
       "KeyA": mouse_left,
       "KeyW": mouse_up,
-      "KeyS": mouse_right,
-      "KeyD": mouse_down,
+      "KeyD": mouse_right,
+      "KeyS": mouse_down,
       65: mouse_left,
       87: mouse_up,
-      83: mouse_right,
-      68: mouse_down
+      68: mouse_right,
+      83: mouse_down
     };
 
     window.addEventListener("keydown", function (event) {
