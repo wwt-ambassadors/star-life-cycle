@@ -75,7 +75,8 @@
     </Description>
   </Place>
 
-   <Place MSRCommunityId="0" MSRComponentId="0" Permission="0" Name="HOPS 68" DataSetType="Sky" RA="5.591333333" Dec="-5.15" Constellation="VIR" Classification="Unidentified" Magnitude="0" Distance="0" ZoomLevel="3.49" Rotation="0" Angle="0" DomeAlt="0" DomeAz="0" Opacity="100" AngularSize="3.49">
+
+  <Place MSRCommunityId="0" MSRComponentId="0" Permission="0" Name="HOPS 68" DataSetType="Sky" RA="5.591333333" Dec="-5.15" Constellation="VIR" Classification="Unidentified" Magnitude="0" Distance="0" ZoomLevel="3.49" Rotation="0" Angle="0" DomeAlt="0" DomeAz="0" Opacity="100" AngularSize="3.49">
     <Target>hops68</Target>
     <ForegroundImageSet>
       <ImageSet Name="HOPS 68" DemUrl="" MSRCommunityId="0" MSRComponentId="0" Permission="0" Generic="False" DataSetType="Sky" BandPass="Visible" Url="http://www.spitzer.caltech.edu/uploaded_files/images/0007/9046/ssc2011-06c1_Med.jpg" TileLevels="0" WidthFactor="1" Sparse="False" Rotation="0.0327671586219935" QuadTreeMap="" Projection="SkyImage" FileType=".jpg" CenterY="-5.2756498433051791" CenterX="83.907803091754644" BottomsUp="False" StockSet="False" ElevationModel="False" OffsetX="612.165595583851" OffsetY="64.600102050693337" BaseTileLevel="0" BaseDegreesPerTile="0.0003690619088841799" ReferenceFrame="" MeanRadius="0" FOV="0.4">
@@ -130,7 +131,7 @@
           Deuterium-burning is fusing an uncommon type of <a data-toggle="modal" href="#objectModal">hydrogen</a> (<a data-toggle="modal" href="#objectModal">deuterium</a>) into an uncommon type of <a data-toggle="modal" href="#objectModal">helium</a> (<a data-toggle="modal" href="#objectModal">helium-3</a>). (This process happens at a lower temperature than is needed to fuse typical hydrogen to helium.)
         </p>
         <ul>
-          <li><a data-toggle="modal" href="#objectModal">deuterium</a> &#8594; <a data-toggle="modal" href="#objectModal">helium-3</a></li>
+          <li><a data-toggle="modal" href="#hydrogenModal">deuterium</a> &#8594; <a data-toggle="modal" href="#heliumModal">helium-3</a></li>
         </ul>
       </div>
       <div class="After">
@@ -157,10 +158,11 @@
     </Description>
   </Place> 
 
+
   <Place MSRCommunityId="0" MSRComponentId="0" Permission="0" Name="Sun" DataSetType="Sky" RA="0.21833333" Dec="1.41694444" Constellation="PSC" Classification="SolarSystem" Magnitude="-26.73" Distance="0.99690962291948559" ZoomLevel="4" Rotation="0" Angle="0" DomeAlt="0" DomeAz="0" Opacity="100" AngularSize="4">
     <ImageSet>
-    <Target>sunstar</Target>
-    <ThumbnailUrl>http://www.worldwidetelescope.org/wwtweb/thumbnail.aspx?name=sun</ThumbnailUrl>
+      <Target>sunstar</Target>
+      <ThumbnailUrl>http://www.worldwidetelescope.org/wwtweb/thumbnail.aspx?name=sun</ThumbnailUrl>
     </ImageSet>
     <Description Title="A main-sequence star (medium mass)">
       <div class="Thumbnail">
@@ -199,7 +201,7 @@
           <a data-toggle="modal" href="#objectModal">Hydrogen</a> atoms in the core are fusing to create <a data-toggle="modal" href="#objectModal">helium</a>. 
         </p>
         <ul>
-          <li><a data-toggle="modal" href="#objectModal">H</a> &#8594; <a data-toggle="modal" href="#objectModal">He</a></li>
+          <li><a data-toggle="modal" href="#hydrogenModal">H</a> &#8594; <a data-toggle="modal" href="#heliumModal">He</a></li>
         </ul>
       </div>
       <div class="After">
@@ -225,6 +227,7 @@
       </div>
     </Description>
   </Place>
+
 
   <Place MSRCommunityId="0" MSRComponentId="0" Permission="0" Name="Sigma Orionis" DataSetType="Sky" RA="5.6455555553333348" Dec="-2.6" Constellation="ORI" Classification="Star" Magnitude="3.81" Distance="0" ZoomLevel="-1" Rotation="0" Angle="0" DomeAlt="0" DomeAz="0" Opacity="100" AngularSize="-1">
     <ImageSet FOV="1">
@@ -274,7 +277,7 @@
           <a data-toggle="modal" href="#objectModal">Hydrogen</a> atoms in the core are fusing to create <a data-toggle="modal" href="#objectModal">helium</a>.
         </p>
         <ul>
-          <li><a data-toggle="modal" href="#objectModal">H</a> &#8594; <a data-toggle="modal" href="#objectModal">He</a></li>
+          <li><a data-toggle="modal" href="#hydrogenModal">H</a> &#8594; <a data-toggle="modal" href="#heliumModal">He</a></li>
         </ul>
       </div>
       <div class="After">
@@ -300,6 +303,7 @@
       </div>
     </Description>
   </Place>
+
 
   <Place MSRCommunityId="0" MSRComponentId="0" Permission="0" Name="Aldebaran" DataSetType="Sky" RA="4.5986111113333337" Dec="16.50916667" Constellation="TAU" Classification="Star" Magnitude="0.85" Distance="0" ZoomLevel="-1" Rotation="0" Angle="0" DomeAlt="0" DomeAz="0" Opacity="100" AngularSize="-1">
     <ImageSet FOV="4">
@@ -349,8 +353,8 @@
           <a data-toggle="modal" href="#objectModal">Helium</a> atoms in the core are fusing to create <a data-toggle="modal" href="#objectModal">carbon</a>. <a data-toggle="modal" href="#objectModal">Hydrogen</a> is fusing to <a data-toggle="modal" href="#objectModal">helium</a> in a shell just outside the core.
         </p>
         <ul>
-          <li><a data-toggle="modal" href="#objectModal">He</a> &#8594; <a data-toggle="modal" href="#objectModal">C</a> (in core)</li>
-          <li><a data-toggle="modal" href="#objectModal">H</a> &#8594; <a data-toggle="modal" href="#objectModal">He</a> (in shell just outside core)</li>
+          <li><a data-toggle="modal" href="#heliumModal">He</a> &#8594; <a data-toggle="modal" href="#carbonModal">C</a> (in core)</li>
+          <li><a data-toggle="modal" href="#hydrogenModal">H</a> &#8594; <a data-toggle="modal" href="#heliumModal">He</a> (in shell just outside core)</li>
         </ul>
         <p>
           (Many other elements heavier than <a data-toggle="modal" href="#objectModal">iron</a> are being created in the outer layers of the red giant through something called the <em>slow neutron-capture process</em>, or just <em>s-process</em>.)
@@ -423,11 +427,11 @@
           At first, <a data-toggle="modal" href="#objectModal">helium</a> atoms in the core are fusing to create <a data-toggle="modal" href="#objectModal">carbon</a>. When the core runs out of <a data-toggle="modal" href="#objectModal">helium</a>, heavier elements such as <a data-toggle="modal" href="#objectModal">neon</a>, <a data-toggle="modal" href="#objectModal">oxygen</a>, <a data-toggle="modal" href="#objectModal">silicon</a>, will fuse in the core until <a data-toggle="modal" href="#objectModal">iron</a> forms. 
         </p>
         <ul>
-          <li><a data-toggle="modal" href="#objectModal">He</a> &#8594; <a data-toggle="modal" href="#objectModal">C</a> (and some <a data-toggle="modal" href="#objectModal">O</a>)</li>
-          <li><a data-toggle="modal" href="#objectModal">C</a> &#8594; <a data-toggle="modal" href="#objectModal">Ne</a> (and some <a data-toggle="modal" href="#objectModal">O</a>, <a data-toggle="modal" href="#objectModal">Na</a>, and <a data-toggle="modal" href="#objectModal">Mg</a>)</li>
-          <li><a data-toggle="modal" href="#objectModal">Ne</a> &#8594; <a data-toggle="modal" href="#objectModal">O</a> (and some <a data-toggle="modal" href="#objectModal">Mg</a>)</li>
-          <li><a data-toggle="modal" href="#objectModal">O</a> &#8594; <a data-toggle="modal" href="#objectModal">Si</a> (and some <a data-toggle="modal" href="#objectModal">S</a> and <a data-toggle="modal" href="#objectModal">P</a>)</li>
-          <li><a data-toggle="modal" href="#objectModal">Si</a> &#8594; <a data-toggle="modal" href="#objectModal">Fe</a> (and some <a data-toggle="modal" href="#objectModal">Ni</a>)</li>
+          <li><a data-toggle="modal" href="#heliumModal">He</a> &#8594; <a data-toggle="modal" href="#carbonModal">C</a> (and some <a data-toggle="modal" href="#oxygenModal">O</a>)</li>
+          <li><a data-toggle="modal" href="#carbonModal">C</a> &#8594; <a data-toggle="modal" href="#neonModal">Ne</a> (and some <a data-toggle="modal" href="#oxygenModal">O</a>, <a data-toggle="modal" href="#sodiumModal">Na</a>, and <a data-toggle="modal" href="#magnesiumModal">Mg</a>)</li>
+          <li><a data-toggle="modal" href="#neonModal">Ne</a> &#8594; <a data-toggle="modal" href="#oxygenModal">O</a> (and some <a data-toggle="modal" href="#magnesiumModal">Mg</a>)</li>
+          <li><a data-toggle="modal" href="#oxygenModal">O</a> &#8594; <a data-toggle="modal" href="#siliconModal">Si</a> (and some <a data-toggle="modal" href="#sulfurModal">S</a> and <a data-toggle="modal" href="#phosphorusModal">P</a>)</li>
+          <li><a data-toggle="modal" href="#siliconModal">Si</a> &#8594; <a data-toggle="modal" href="#ironModal">Fe</a> (and some <a data-toggle="modal" href="#nickelModal">Ni</a>)</li>
         </ul>
       </div>
       <div class="After">
