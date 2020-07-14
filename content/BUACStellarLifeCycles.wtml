@@ -81,7 +81,7 @@
       <ImageSet Name="HOPS 68" DemUrl="" MSRCommunityId="0" MSRComponentId="0" Permission="0" Generic="False" DataSetType="Sky" BandPass="Visible" Url="http://www.spitzer.caltech.edu/uploaded_files/images/0007/9046/ssc2011-06c1_Med.jpg" TileLevels="0" WidthFactor="1" Sparse="False" Rotation="0.0327671586219935" QuadTreeMap="" Projection="SkyImage" FileType=".jpg" CenterY="-5.2756498433051791" CenterX="83.907803091754644" BottomsUp="False" StockSet="False" ElevationModel="False" OffsetX="612.165595583851" OffsetY="64.600102050693337" BaseTileLevel="0" BaseDegreesPerTile="0.0003690619088841799" ReferenceFrame="" MeanRadius="0" FOV="0.4">
         <Credits>NASA/JPL-Caltech/T. Megeath (University of Toledo, Ohio)</Credits>
         <CreditsUrl>http://www.spitzer.caltech.edu/images/3635-ssc2011-06c1-Protostar-HOPS-68-in-Orion</CreditsUrl>
-        <ThumbnailUrl>HOPS68_thumbnail.jpg</ThumbnailUrl>
+        <ThumbnailUrl>images/HOPS68_thumbnail.jpg</ThumbnailUrl>
       </ImageSet>
     </ForegroundImageSet>
     <Description Title="A protostar">
@@ -229,7 +229,7 @@
   <Place MSRCommunityId="0" MSRComponentId="0" Permission="0" Name="Sigma Orionis" DataSetType="Sky" RA="5.6455555553333348" Dec="-2.6" Constellation="ORI" Classification="Star" Magnitude="3.81" Distance="0" ZoomLevel="-1" Rotation="0" Angle="0" DomeAlt="0" DomeAz="0" Opacity="100" AngularSize="-1">
     <ImageSet FOV="1">
       <Target>sigmaorionis</Target>
-      <ThumbnailUrl>sigma_orionis_thumbnail.png</ThumbnailUrl>
+      <ThumbnailUrl>images/sigma_orionis_thumbnail.png</ThumbnailUrl>
     </ImageSet>
     <Description Title="A main sequence star (high mass)">
       <div class="Thumbnail">
@@ -304,7 +304,7 @@
   <Place MSRCommunityId="0" MSRComponentId="0" Permission="0" Name="Aldebaran" DataSetType="Sky" RA="4.5986111113333337" Dec="16.50916667" Constellation="TAU" Classification="Star" Magnitude="0.85" Distance="0" ZoomLevel="-1" Rotation="0" Angle="0" DomeAlt="0" DomeAz="0" Opacity="100" AngularSize="-1">
     <ImageSet FOV="4">
       <Target>aldebaranstar</Target>
-      <ThumbnailUrl>aldebaran_thumbnail.png</ThumbnailUrl>
+      <ThumbnailUrl>images/aldebaran_thumbnail.png</ThumbnailUrl>
     </ImageSet>
     <Description Title="A red giant">
       <div class="Thumbnail">
@@ -378,7 +378,7 @@
   <Place MSRCommunityId="0" MSRComponentId="0" Permission="0" Name="Betelgeuse" DataSetType="Sky" RA="5.9194444446666665" Dec="7.406944444" Constellation="ORI" Classification="Star" Magnitude="0.5" Distance="0" ZoomLevel="-1" Rotation="0" Angle="0" DomeAlt="0" DomeAz="0" Opacity="100" AngularSize="-1">
     <ImageSet FOV="8">
       <Target>betelgeusestar</Target>
-      <ThumbnailUrl>betelgeuse_thumbnail.png</ThumbnailUrl>
+      <ThumbnailUrl>images/betelgeuse_thumbnail.png</ThumbnailUrl>
     </ImageSet>
     <Description Title="A red supergiant">
       <div class="Thumbnail">
