@@ -69,7 +69,7 @@
       <div class="Dive">
         <h4>Dive deeper</h4>
         <p>
-        <a href="https://universeunplugged.ipac.caltech.edu/video/think-tank-a-star-is-born" target="_new">A star is born</a> 
+          <a href="https://universeunplugged.ipac.caltech.edu/video/think-tank-a-star-is-born" target="_new">A star is born</a> 
         </p>
       </div>
     </Description>
@@ -121,7 +121,7 @@
           The radiation pressure created by deuterium burning counteracts the inward force of the gravity, and the object remains stable for some time. More gas and dust can continue to collect onto the object, allowing it to grow in mass. Some of this gas and dust might eventually become planets, and someday form into life on those planets.
         </p>
         <p>
-        The surrounding dust blocks visible light from the protostar from reaching us. However, the dust also absorbs the energy emitted by the object and re-radiates it at infrared wavelengths. Therefore, this object can be observed by telescopes that detect infrared light, like the Spitzer Space Telescope.
+          The surrounding dust blocks visible light from the protostar from reaching us. However, the dust also absorbs the energy emitted by the object and re-radiates it at infrared wavelengths. Therefore, this object can be observed by telescopes that detect infrared light, like the Spitzer Space Telescope.
         </p>
       </div>
       <div class="Elements">
@@ -319,7 +319,7 @@
           Aldebaran is a <strong>red giant</strong> in the constellation Taurus (Latin for "bull"). In many pictorial representations of the constellation, Aldebaran represents the “eye” of the bull.
         </p>
         <p>
-        Aldebaran has a mass similar to our Sun’s, but it is much larger in radius.
+          Aldebaran has a mass similar to our Sun’s, but it is much larger in radius.
         </p>
         <p class="constellation_para">
           <a class="taurus_const constellation_link" href="#">See where the star Aldebaran appears in the constellation Taurus</a>
@@ -353,7 +353,7 @@
           <li><a data-toggle="modal" href="#objectModal">H</a> &#8594; <a data-toggle="modal" href="#objectModal">He</a> (in shell just outside core)</li>
         </ul>
         <p>
-        (Many other elements heavier than <a data-toggle="modal" href="#objectModal">iron</a> are being created in the outer layers of the red giant through something called the <em>slow neutron-capture process</em>, or just <em>s-process</em>.)
+          (Many other elements heavier than <a data-toggle="modal" href="#objectModal">iron</a> are being created in the outer layers of the red giant through something called the <em>slow neutron-capture process</em>, or just <em>s-process</em>.)
         </p>
       </div>
       <div class="After">
@@ -448,7 +448,7 @@
       <div class="Dive">
         <h4>Dive deeper</h4>
         <p>
-        <a href="https://www.astro.uu.se/~bf/movie/dst35gm04n26/movie.html" target="_new">Dynamic simulation of a red supergiant</a>
+          <a href="https://www.astro.uu.se/~bf/movie/dst35gm04n26/movie.html" target="_new">Dynamic simulation of a red supergiant</a>
         </p>
       </div>
     </Description>
@@ -458,7 +458,7 @@
   <Place MSRCommunityId="0" MSRComponentId="0" Permission="0" Name="The Ring Nebula (M57)" DataSetType="Sky" RA="18.893055555555591" Dec="33.0283333333333" Constellation="LYR" Classification="Nebula" Magnitude="0" Distance="0" ZoomLevel="0.565" Rotation="0" Angle="0" DomeAlt="0" DomeAz="0" Opacity="100" AngularSize="0.565">
     <Target>ringnebula</Target>
     <ForegroundImageSet>
-        <ImageSet DemUrl="" MSRCommunityId="0" MSRComponentId="0" Permission="0" Generic="False" DataSetType="Sky" BandPass="Visible" Url="http://r{S:1}.ortho.tiles.virtualearth.net/tiles/wsa0000001201{Q}?g=138" TileLevels="3" WidthFactor="2" Sparse="True" Rotation="33.4150621086519" QuadTreeMap="0123" Projection="Tangent" Name="The Ring Nebula (M57)" FileType=".png" CenterY="33.0294929455291" CenterX="283.395104978147" BottomsUp="False" StockSet="False" ElevationModel="False" OffsetX="0" OffsetY="0" BaseTileLevel="0" BaseDegreesPerTile="0.0565749886281826" MeanRadius="0" FOV="0.0565749886281826">
+      <ImageSet DemUrl="" MSRCommunityId="0" MSRComponentId="0" Permission="0" Generic="False" DataSetType="Sky" BandPass="Visible" Url="http://r{S:1}.ortho.tiles.virtualearth.net/tiles/wsa0000001201{Q}?g=138" TileLevels="3" WidthFactor="2" Sparse="True" Rotation="33.4150621086519" QuadTreeMap="0123" Projection="Tangent" Name="The Ring Nebula (M57)" FileType=".png" CenterY="33.0294929455291" CenterX="283.395104978147" BottomsUp="False" StockSet="False" ElevationModel="False" OffsetX="0" OffsetY="0" BaseTileLevel="0" BaseDegreesPerTile="0.0565749886281826" MeanRadius="0" FOV="0.0565749886281826">
         <Credits>Credit: The Hubble Heritage Team (AURA/STScI/NASA)</Credits>
         <CreditsUrl>http://hubblesite.org/newscenter/newsdesk/archive/releases/1999/01/</CreditsUrl>
         <ThumbnailUrl>http://www.worldwidetelescope.org/wwtweb/thumbnail.aspx?name=1808329735</ThumbnailUrl>
@@ -495,7 +495,7 @@
       <div class="Process">
         <h4>What is happening now?</h4>
         <p>
-           Gravity continues to compress the core of the star, and eventually, more than half the mass of the original star will be collapsed into a remnant called a white dwarf. A white dwarf is similar in size to Earth, but has 200,000 times more mass. 
+          Gravity continues to compress the core of the star, and eventually, more than half the mass of the original star will be collapsed into a remnant called a white dwarf. A white dwarf is similar in size to Earth, but has 200,000 times more mass. 
         </p>
         <p>
           At the same time, winds are blowing the outer layers of gas away from the core, creating the ring-like planetary nebula that surrounds the white dwarf.
@@ -541,7 +541,7 @@
 
   <Place MSRCommunityId="0" MSRComponentId="0" Permission="0" Name="Crab Nebula : Dead Star Creates Celestial Havoc" DataSetType="Sky" RA="5.5755555555555461" Dec="22.0166666666667" Constellation="TAU" Classification="SupernovaRemnant" Magnitude="0" Distance="0" ZoomLevel="1" Rotation="0" Angle="0" DomeAlt="0" DomeAz="0" Opacity="100" AngularSize="1">
     <Target>crabnebula</Target>
-        <ForegroundImageSet>
+    <ForegroundImageSet>
       <ImageSet DemUrl="" MSRCommunityId="0" MSRComponentId="0" Permission="0" Generic="False" DataSetType="Sky" BandPass="Visible" Url="http://r{S:2}.ortho.tiles.virtualearth.net/tiles/wsa0000001102{Q}?g=138" TileLevels="4" WidthFactor="2" Sparse="True" Rotation="-0.0751860195300311" QuadTreeMap="0123" Projection="Tangent" Name="Crab Nebula : Dead Star Creates Celestial Havoc" FileType=".png" CenterY="22.0172769653712" CenterX="83.6331623858263" BottomsUp="False" StockSet="False" ElevationModel="False" OffsetX="0" OffsetY="0" BaseTileLevel="0" BaseDegreesPerTile="0.22681269761397" MeanRadius="0" FOV="0.2268127">
         <Credits>Credit: NASA, ESA, CXC, JPL-Caltech, J. Hester and A. Loll (Arizona State Univ.), R. Gehrz (Univ. Minn.), and STScI</Credits>
         <CreditsUrl>http://hubblesite.org/newscenter/newsdesk/archive/releases/2005/37/</CreditsUrl>
@@ -620,29 +620,31 @@
       <div class="Dive">
         <h4>Dive deeper</h4>
         <p>
-        <a href="https://universeunplugged.ipac.caltech.edu/video/think-tank-when-stars-go-boom" target="_new">When Stars Go Boom</a>
+          <a href="https://universeunplugged.ipac.caltech.edu/video/think-tank-when-stars-go-boom" target="_new">When Stars Go Boom</a>
         </p>
       </div>
     </Description>
   </Place>
 
+
+
   <Constellation MSRCommunityId="0" MSRComponentId="0" Permission="0" Name="Orion Constellation" DataSetType="Sky" RA="5.5764999999999993" Dec="-0.33" Constellation="ORI" Classification="Constellation" Magnitude="0" Distance="0" ZoomLevel="-1" Rotation="0" Angle="0" DomeAlt="0" DomeAz="0" Opacity="100" AngularSize="-1">
     <ImageSet FOV="23">
-    <Target>orionconstellation</Target>
+      <Target>orionconstellation</Target>
     </ImageSet>
   </Constellation>
 
 
   <Constellation MSRCommunityId="0" MSRComponentId="0" Permission="0" Name="Taurus Constellation" DataSetType="Sky" RA="4.517" Dec="14.717" Constellation="TAU" Classification="Constellation" Magnitude="0" Distance="0" ZoomLevel="-1" Rotation="0" Angle="0" DomeAlt="0" DomeAz="0" Opacity="100" AngularSize="-1">
     <ImageSet FOV="23">
-    <Target>taurusconstellation</Target>
+      <Target>taurusconstellation</Target>
     </ImageSet>
   </Constellation>
 
 
   <Constellation MSRCommunityId="0" MSRComponentId="0" Permission="0" Name="Lyra Constellation" DataSetType="Sky" RA="18.8" Dec="38.4" Constellation="LYR" Classification="Constellation" Magnitude="0" Distance="0" ZoomLevel="-1" Rotation="0" Angle="0" DomeAlt="0" DomeAz="0" Opacity="100" AngularSize="-1">
     <ImageSet FOV="13.5">
-    <Target>lyraconstellation</Target>
+      <Target>lyraconstellation</Target>
     </ImageSet>
   </Constellation>
 
