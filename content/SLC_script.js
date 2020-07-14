@@ -4,10 +4,6 @@
 
   // The WWT WWTControl singleton.
   var wwt_ctl = null;
-    
-  // track whether user has panned or zoomed yet.
-  var click_counter = 0;
-  var zoom_counter = 0;
 
   // global variables to hold the wwt_si navigation for the last thumbnail clicked, for use by the reset button
   var reset_enabled = false;
@@ -17,6 +13,8 @@
   var curr_dec = null;
   var curr_FOV = null;
 
+
+  // function to start off with when $(document).ready() takes off
   function initialize() {
     // This function call is
     // wwt-web-client/HTML5SDK/wwtlib/WWTControl.cs:WWTControl::InitControlParam.
@@ -31,8 +29,11 @@
     wwt_si.add_ready(wwt_ready);
   }
 
+  // Execute on load of DOM
   $(document).ready(initialize);
 
+
+  // If you can follow the logic above, it'll get here, and this is where the action really happens
   function wwt_ready() {
     wwt_ctl = wwtlib.WWTControl.singleton;
 
@@ -42,16 +43,18 @@
     wwt_si.settings.set_showCrosshairs(false);
     setup_controls();
 
-    //(variables defined inside a function are not known to other functions)
+    
+    // (variables defined inside a function are not known to other functions)
     loadWtml(function (folder, xml) {
 
-      // store each of the Place objects from the WTML file in places
+      // store each of the Place objects from the WTML file in places variables
       var places = $(xml).find('Place');
       var thumbTemplate = $('<div class="col_thumb"><a href="javascript:void(0)" class="thumbnail border_white"><img src=""/><div class="thumbname">example</div</a></div>');
       var descTemplate = $('<div class="obj_desc container-fluid"><div class="row"><div class="name col-xs-12 col-md-12 col-lg-12"></div><div class="what col-xs-12 col-md-12 col-lg-12"></div><div class="before col-xs-12 col-md-12 col-lg-12"></div><div class="process col-xs-12 col-md-12 col-lg-12"></div><div class="elements col-xs-12 col-md-12 col-lg-12"></div><div class="after col-xs-12 col-md-12 col-lg-12"></div><div class="properties col-xs-12 col-md-12 col-lg-12"></div><div class="dive col-xs-12 col-md-12 col-lg-12"></div></div></div>');
       var constellations = $(xml).find('Constellation');
-      var cmb = $(xml).find('CMB');
       
+
+      // iterate fully through each places object
       places.each(function (i, pl) {
         var place = $(pl);
 
@@ -59,6 +62,7 @@
         var tmpthumb = thumbTemplate.clone();
         var tmpdesc = descTemplate.clone();
 
+        // grab most of the key attributes to associate with the thumbnail from the wtml
         tmpthumb.find('img').attr({
           src: place.find('ThumbnailUrl').text(),
           class: 'border_black',
@@ -69,7 +73,8 @@
           title: place.find('Description').attr('Title')
         });
 
-        // locate the thumbnail name and replace html contents with content from WTML file
+
+        // thumbnail label - locate the thumbnail name and replace html contents with content from WTML file, to represent
         var thumbname = place.find('.Thumbnail').html();
         tmpthumb.find('.thumbname').html(thumbname);
 
@@ -104,16 +109,18 @@
         tmpdesc.addClass(desc_class);
 
 
-        // add event listener to every thumbnail element, which listens for single- vs. double-click
+        // click functions - add event listener to every thumbnail element, which listens for single- vs. double-click
         function on_click(element, is_dblclick) {
 
+          // ignore if wwt_si hasn't initialized yet
           if (wwt_si === null) {
             return;
           };
 
-          //	Change the border color of the selected thumbnail
+          // Change the border color of the selected thumbnail
           var element = element;
-            
+          
+          // thumbnail border - change the border color surrounding the clicked thumbnail, and text color too
           $(".thumbnail img").removeClass("border_green").addClass("border_black");
           $(".thumbname").removeClass("text_green");
           $(element).parent().find("img").removeClass("border_black").addClass("border_green");
@@ -130,16 +137,17 @@
           $('#description_container').scrollTop(0).show();
             
           $(toggle_class).show();
-            
+          
+
           // Make arrow appear only for overflow
           var desc_box = $('#description_container')[0];
           
           if(desc_box.scrollHeight > desc_box.clientHeight) {
-            console.log("need arrow");
             $('.fa-arrow-down').show();
           } else {
             $('.fa-arrow-down').hide();
           }
+
 
           // check whether this target is a Solar System object (only the Sun, in this case)
           if (place.attr('Classification') == 'SolarSystem') {
@@ -190,40 +198,38 @@
           }
         }
 
+
+        // attach click events to thumbnails to trigger the on_click function (defined above)
         tmpthumb.find('a')
           .data('foreground-image', place.attr('Name'))
-          //'click' - false; 'dblclick' - true.  on('click', function () { on_click(false) });
-
+          // specify different functionality for click vs. dblclick
           .on('click', function(event){
             var element = event.target;
             on_click(element, false)
           })
-
           .on('dblclick', function(event){
             var element = event.target;
             on_click(element, true)
           });
 
+
         // Plug the set of thumbnails into the #destinationThumbs element
         $('#destinationThumbs').append(tmpthumb);
           
+        // Plug the set of descriptions into the #description_container element
         $("#description_container").append(tmpdesc);
 
-        // tag the reload button with a click action to reload the most recent thumbnail
+
+        // tag the reset button with a click action to reload the most recent thumbnail
         $("#reset_target").on('click', function(event){
 
           //set the background image to DSS for any target reset
           wwt_si.setBackgroundImageByName('Digitized Sky Survey (Color)');
 
-          console.log("should be resetting...");
-
+          // What to do if we're dealing with solar system object (ie. the Sun)
           if (curr_clasification == 'SolarSystem') {
 
-            // This is a solar system object. In order to view it correctly,
-            // we need to find its associated wwtlib "Place" object and seek
-            // to it thusly. The get_camParams() function calculates its
-            // current RA and Dec.
-
+            // should copy earlier code exactly
             $.each(folder.get_children(), function (i, wwtplace) {
               if (wwtplace.get_name() == curr_name) {
                 wwt_ctl.gotoTarget3(wwtplace.get_camParams(), false, true);
@@ -232,10 +238,8 @@
 
           } else {
 
-            // Every other object (ie not SolarSystem) represents one of the 
-            // other thumbnails of celestial objects. CMB and Constellations
-            // not included.
-
+            // Every other object (ie. not the Sun) represents one of the 
+            // other thumbnails of celestial objects. Constellations not included.
             wwt_si.settings.set_showConstellationFigures(false);
             wwt_si.settings.set_showConstellationLabels(false);
 
@@ -250,19 +254,21 @@
 
           }
 
+          // slowly fade out reset button, because it was just clicked
           $("#reset_target").fadeOut(1000);
 
         })
-
       });
+
 
       // Add constellation links to text in description
       constellations.each(function (i, pl) {
 
         var constellation = $(pl);
 
-        function on_click(element, is_dblclick) {
+        function on_click(element) {
 
+          // ignore if wwt_si hasn't initialized yet
           if (wwt_si === null) {
             return;
           };
@@ -283,139 +289,28 @@
         
         }
 
+        // deal with each constellation individually
         if (constellation.attr('Name') == "Orion Constellation") {
           $(".orion_const").on('click', function(event){
-            console.log("clicked orion constellation link line 336 js")
             var element = event.target;
-            on_click(element, false)
+            on_click(element)
           })
         } else if (constellation.attr('Name') == "Taurus Constellation") {
           $(".taurus_const").on('click', function(event){
-            console.log("clicked taurus constellation link line 342 js")
             var element = event.target;
-            on_click(element, false)
+            on_click(element)
           })
         } else if (constellation.attr('Name') == "Lyra Constellation") {
           $(".lyra_const").on('click', function(event){
-            console.log("clicked lyra constellation link line 348 js")
             var element = event.target;
-            on_click(element, false)
+            on_click(element)
           })
         }
 
       });
-
-
-      // Add CMB to the thumbnails gutter
-      cmb.each(function (i, pl) {
-        var cmb = $(pl);
-
-        // create a temporary object of a thumbnail and of a description element from the templates above 
-        var tmpthumb = $('<div class="col_thumb"><a href="javascript:void(0)" class="thumbnail border_white" id="cmb_thumb"><div class="thumbname">example</div</a></div>');
-        console.log("just cloned thumb template: ", cmb.find('.Thumbnail').html());
-        var tmpdesc = descTemplate.clone();
-
-        // locate the thumbnail name and replace html contents with content from WTML file
-        var thumbname = cmb.find('.Thumbnail').html();
-        tmpthumb.find('.thumbname').html(thumbname);
-
-        // grab the class = Name/What/Process/Elements/Properties/Dive html content for each Place from the WTML file
-        var targetname = cmb.find('.Name').html();
-        tmpdesc.find('.name').html(targetname);
-
-        var targetwhat = cmb.find('.What').html();
-        tmpdesc.find('.what').html(targetwhat);
-          
-        var targetprocess = cmb.find('.Process').html();
-        tmpdesc.find('.process').html(targetprocess);
-          
-        var targetelements = cmb.find('.Elements').html();
-        tmpdesc.find('.elements').html(targetelements);
-          
-        var targetproperties = cmb.find('.Properties').html();
-        tmpdesc.find('.properties').html(targetproperties);
-          
-        var targetdive = cmb.find('.Dive').html();
-        tmpdesc.find('.dive').html(targetdive);
-    
-          
-        // apply the unique target description class to the description template clone
-        var desc_class = cmb.find('Target').text().toLowerCase() + "_description";
-        console.log("CMB desc_class: ", desc_class);
-        tmpdesc.addClass(desc_class);
-
-        function on_click(element, is_dblclick) {
-
-          if (wwt_si === null) {
-            return;
-          };
-
-          //	Change the text color of the Cosmic Microwave Background
-          var element = element;
-            
-          $(".thumbnail img").removeClass("border_green").addClass("border_black");
-          $(".thumbname").removeClass("text_green");
-          $(element).parent().find(".thumbname").addClass("text_green");
-
-          // (disable and hide reset button if visible)
-          reset_enabled = false;
-          $("#reset_target").fadeOut(100);
-
-          /* hide all descriptions, then show description specific to this target on sgl/dbl click */
-          var toggle_class = "." + desc_class;
-          $("#description_box").find(".obj_desc").hide();
-          $('#begin_container').hide();
-          $('#description_container').scrollTop(0).show();
-            
-          $(toggle_class).show();
-            
-          // Make arrow appear only for overflow
-          var desc_box = $('#description_container')[0];
-          
-          if(desc_box.scrollHeight > desc_box.clientHeight) {
-            console.log("need arrow");
-            $('.fa-arrow-down').show();
-          } else {
-            $('.fa-arrow-down').hide();
-          }
-
-          wwt_si.setBackgroundImageByName('Planck CMB');
-          wwt_si.settings.set_showConstellationFigures(false);
-          wwt_si.settings.set_showConstellationLabels(false);
-
-          wwt_si.setForegroundImageByName('');
-
-          wwt_si.gotoRaDecZoom(
-            parseFloat(cmb.attr('RA')) * 15,
-            cmb.attr('Dec'),
-            parseFloat(cmb.find('ImageSet').attr('FOV')),
-            false
-          );
-        
-        };
-
-        tmpthumb.find('a')
-          .data('foreground-image', cmb.attr('Name'))
-          //'click' - false; 'dblclick' - true.  on('click', function () { on_click(false) });
-
-          .on('click', function(event){
-            var element = event.target;
-            on_click(element, false)
-          })
-
-          .on('dblclick', function(event){
-            var element = event.target;
-            on_click(element, true)
-          });
-
-        // Plug the set of thumbnails into the #destinationThumbs element
-        $('#destinationThumbs').append(tmpthumb);
-        $("#description_container").append(tmpdesc);
-
-      });
-
     });
   };
+
 
   // Load data from wtml file
   function loadWtml(callback) {
@@ -423,7 +318,6 @@
 
     //This is what Ron calls getXml
     function getWtml() {
-      //console.log("in getWtml function");
       if (hasLoaded) { return; }
       hasLoaded = true;
       $.ajax({
@@ -438,7 +332,6 @@
           console.log({ a: a, b: b, c: c });
         }
       });
-      //console.log("ran ajax thing");
     }
 
     var wtmlPath = "BUACStellarLifeCycles.wtml";
@@ -469,44 +362,37 @@
 
     // Constants here must be synced with settings in style.css
     const new_wwt_width = (top_container.width() - thumb_gutter.width());
-      // subtract 52 to account for the margin and border in .css file
-    const thumbs_height = thumb_gutter.outerHeight(true);
-    // const new_wwt_height = ((0.5 * container.height()) - 52);
-    const new_wwt_height = top_container.height() - 2;  //set wwt_canvas height to fill top_container, subtract 2 to account for border width
+    const new_wwt_height = top_container.height() - 2;
+    // set wwt_canvas height to fill top_container, subtract 2 to account for border width
+
     const colophon_height = $("#colophon").height();
-      // subtract 20 to account for the margin in .css file, and give a little wiggle room
-    
     const bottom_height = container.height() - top_container.outerHeight() - 50;
     const description_height = bottom_height - colophon_height;
-    // const new_desc_height = (bottom_container.height() - colophon_height - 40);
-    // const new_desc_height = (0.35 * container.height());
-    console.log("html: ", container.height())
-    console.log("top: ", top_container.outerHeight())
-    console.log("bottom: ", bottom_height)
 
+    // resize wwtcanvas with new values
     $("#wwtcanvas").css({
       "width": new_wwt_width + "px",
       "height": new_wwt_height + "px"
     });
 
+    // resize bottom container to new value
     $(bottom_container).css({
       "height": bottom_height + "px"
     })
 
+    // resize description box to new value
     $("#description_box").css({
       "height": description_height + "px"
-      // "height": new_desc_height + "px"
     });
 
   }
 
   $(document).ready(size_content);
   $(window).resize(size_content);
-  // also triggering size_content function in the load_wtml function, because thumbnails aren't loading immediately
+  // also triggering size_content function in the load_wtml function,
+  // because thumbnails aren't loading immediately
     
     
-
-
 
   // Backend details: setting up keyboard controls.
   //
@@ -540,21 +426,21 @@
     const mouse_down = new_event("wwt-move", { movementX: 0, movementY: -53 }, true);
 
     const zoomCodes = {
-      "KeyZ": wheel_up,
-      "KeyX": wheel_down,
-      90: wheel_up,
-      88: wheel_down
+      "KeyI": wheel_up,
+      "KeyO": wheel_down,
+      73: wheel_up,
+      79: wheel_down
     };
 
     const moveCodes = {
-      "KeyJ": mouse_left,
-      "KeyI": mouse_up,
-      "KeyL": mouse_right,
-      "KeyK": mouse_down,
-      74: mouse_left,
-      73: mouse_up,
-      76: mouse_right,
-      75: mouse_down
+      "KeyA": mouse_left,
+      "KeyW": mouse_up,
+      "KeyS": mouse_right,
+      "KeyD": mouse_down,
+      65: mouse_left,
+      87: mouse_up,
+      83: mouse_right,
+      68: mouse_down
     };
 
     window.addEventListener("keydown", function (event) {
@@ -633,12 +519,12 @@
     })(true));
   }
   
+
   // when user scrolls to bottom of the description container, remove the down arrow icon. Add it back when scrolling back up.
   $('#description_container').on('scroll', function(event) {
       var element = event.target;
     
     if(element.scrollHeight - element.scrollTop === element.clientHeight) {
-      console.log("reached bottom!");
       $('.fa-arrow-down').fadeOut(200);
     }
     else {
