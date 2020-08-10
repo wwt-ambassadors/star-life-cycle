@@ -62,6 +62,7 @@
         var tmpthumb = thumbTemplate.clone();
         var tmpdesc = descTemplate.clone();
 
+
         // grab most of the key attributes to associate with the thumbnail from the wtml
         tmpthumb.find('img').attr({
           src: place.find('ThumbnailUrl').text(),
@@ -341,12 +342,12 @@
       getWtml();
     }, 1500);
     //trigger size_content function again after thumbnails have started loading
-    setTimeout(function() {
-        size_content();
+    setTimeout(function () {
+      size_content();
     }, 500);
     //trigger size_content function a second time after thumbnails have started loading
-    setTimeout(function() {
-        size_content();
+    setTimeout(function () {
+      size_content();
     }, 3000);
   };
 
@@ -509,10 +510,12 @@
 
         setTimeout(function () { proceed = true }, delay);
 
-        if (event.deltaY < 0)
+        if (event.deltaY < 0) {
           wwt_ctl.zoom(1.43);
-        else
+        }
+        else {
           wwt_ctl.zoom(0.7);
+        }
 
       }
     })(true));

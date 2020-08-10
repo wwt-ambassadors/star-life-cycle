@@ -131,7 +131,7 @@
           <em>Deuterium fusion</em> is responsible for fusing an uncommon type of hydrogen (deuterium) into an uncommon type of helium (helium-3). (This process happens at a lower temperature than is needed to fuse typical hydrogen to helium.)
         </p>
         <ul>
-          <li><a data-toggle="modal" href="#hydrogenModal">deuterium</a> &#8594; <a data-toggle="modal" href="#heliumModal">helium-3</a></li>
+          <li><a data-toggle="modal" href="#deuteriumModal">deuterium</a> &#8594; <a data-toggle="modal" href="#helium-3Modal">helium-3</a></li>
         </ul>
       </div>
       <div class="After">
