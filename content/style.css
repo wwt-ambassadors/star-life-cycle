@@ -91,22 +91,16 @@ a, a:hover {
 }
 
 .border_green {
-	border: 2px solid #44ff44; /* considered #FBCB1F alternate color */
+	border: 2px solid #44ff44;
 }
 
 .text_green {
 	color: #44ff44;
 }
 
-#cmb_thumb {
-    margin-bottom: 0px;
-    width: 232px;
-    text-align: center;
-}
-
-#cmb_thumb .thumbname {
-    font-size: 13px;
-    height: auto;
+#thumbs_note {
+    color: #EFA928;
+    font-size: 12px;
 }
 
 
@@ -143,10 +137,10 @@ a, a:hover {
 #reset_target {
     position: absolute;
     bottom: 20px;
-    left: 20px;
+    left: 15px;
     font-family: "Font Awesome 5 Free";
     color: #41BEECC0;
-    font-size: 1.25em;
+    font-size: 0.8em;
     display: none;
 }
 
