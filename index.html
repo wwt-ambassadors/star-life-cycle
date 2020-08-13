@@ -37,14 +37,21 @@
         <div class="top_container">
             <div class="thumb_gutter">
                 <div id="destinationThumbs" class="d-flex flex-wrap"></div>
+                <div id="thumbs_note">
+                    double-click to arrive<br>
+                    to target immediately
+                </div>
             </div>
             <div id="wwtcanvas">
                 <h1 id="page_title">Life Cycle of Stars</h1>
-                <i id="reset_target" class="fas fa-redo-alt"></i>
+                <a id="reset_target" class="fa-stack fa-sm" href="#" title="reset">
+                    <i class="far fa-circle fa-stack-2x"></i>
+                    <i class="fas fa-redo-alt fa-stack-1x"></i>
+                </a>
                 <div id="zoom_pan_container">
                     <div id="zoom_pan_instrux">
-                        to zoom, scroll in and out (or use the <strong>I-O</strong> keys)<br>
-                        to pan, click + drag (or use the <strong>W-A-S-D</strong> keys)
+                        <span class="smallcaps">zoom:</span> scroll in and out (or use the <strong>I-O</strong> keys)<br>
+                        <span class="smallcaps">pan:</span> click + drag (or use the <strong>W-A-S-D</strong> keys)
                     </div>
                 </div>
             </div>
