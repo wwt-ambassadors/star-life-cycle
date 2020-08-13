@@ -32,6 +32,11 @@ a, a:hover {
   color: #FFF;
 }
 
+.smallcaps {
+    font-variant: small-caps;
+    font-weight: bold;
+}
+
 
 
 /* The containers, top and bottom */
