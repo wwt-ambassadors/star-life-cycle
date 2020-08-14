@@ -69,7 +69,7 @@
       <div class="Dive">
         <h4>Dive deeper</h4>
         <p>
-          <a href="https://universeunplugged.ipac.caltech.edu/video/think-tank-a-star-is-born" target="_new">A star is born</a> 
+          <a data-toggle="modal" href="#astarisbornModal">A Star Is Born</a>
         </p>
       </div>
     </Description>
@@ -152,7 +152,7 @@
       <div class="Dive">
         <h4>Dive Deeper</h4>
         <p>
-          <a href="https://hubblesite.org/video/1005" target="_new">3D fly-through</a> of Spitzer Orion image
+          <a data-toggle="modal" href="#flythroughModal">3D fly-through</a> of Spitzer Orion image
         </p>
       </div>
     </Description>
@@ -624,7 +624,7 @@
       <div class="Dive">
         <h4>Dive deeper</h4>
         <p>
-          <a href="https://universeunplugged.ipac.caltech.edu/video/think-tank-when-stars-go-boom" target="_new">When Stars Go Boom</a>
+          <a data-toggle="modal" href="#whenstarsgoboomModal">When Stars Go Boom</a>
         </p>
       </div>
     </Description>

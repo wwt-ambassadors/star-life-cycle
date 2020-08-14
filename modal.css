@@ -59,3 +59,8 @@
     color: white;
 }
 
+.video_modal iframe {
+    width: 100%;
+    height: calc(60vh);
+}
+
