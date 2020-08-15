@@ -36,7 +36,7 @@
       <div class="Before">
         <h4>Where did it come from?</h4>
         <p>
-          Gas and dust are present throughout our galaxy. Most of the gas is made of hydrogen and helium, but it also includes heavier elements that were made inside stars. Stars release the enriched gas into space when they become <strong>planetary nebulae</strong> or <strong>supernovas</strong>. Gravity eventually brings the gas together into a large cloud where new stars can form.
+          Gas and dust are present throughout our galaxy. Most of the gas is made of hydrogen and helium, but it also includes heavier elements that were made inside stars. Stars release the enriched gas into space when they become <strong>planetary nebulae</strong> or <strong>supernovas</strong>. Gravity eventually brings the gas and dust together into a large cloud where new stars can form.
         </p>
       </div>
       <div class="Process">
@@ -110,7 +110,7 @@
           Before HOPS-68 reached its current stage, it was a relatively dense region of gas and dust within the Orion <strong>star-forming nebula</strong>. Gravity pulled together more gas and dust from the surrounding area into a cold, dense clump that would become HOPS-68.
         </p>
         <p>
-          Gravity continued to compress the gas, until the object's core became hot enough to start a process called <em>deuterium fusion</em>, which occurs in a new protostar's core.
+          Gravity continued to compress the gas and dust, until the object's core became hot enough to start a process called <em>deuterium fusion</em>, which occurs in a new protostar's core.
         </p>
       </div>
       <div class="Process">
@@ -128,7 +128,7 @@
       <div class="Elements">
         <h4>Element formation</h4>
         <p>
-          <em>Deuterium fusion</em> is responsible for fusing an uncommon type of hydrogen (deuterium) into an uncommon type of helium (helium-3). (This process happens at a lower temperature than is needed to fuse typical hydrogen to helium.)
+          <em>Deuterium fusion</em> is responsible for fusing an uncommon type of hydrogen (deuterium) into an uncommon type of helium (helium-3). (This process happens at a lower temperature and density than is needed to fuse typical hydrogen to helium.)
         </p>
         <ul>
           <li><a data-toggle="modal" href="#deuteriumModal">deuterium</a> &#8594; <a data-toggle="modal" href="#helium-3Modal">helium-3</a></li>
@@ -137,7 +137,7 @@
       <div class="After">
         <h4>What's next?</h4>
         <p>
-          There is only a small proportion of deuterium in a star’s gas. Once the deuterium in HOPS-68's core runs out and <em>deuterium fusion</em> stops, there will be no way to counteract gravity. The gas will compress further, and the core will reach a high enough temperature for typical hydrogen atoms in the core to fuse to helium.
+          There is only a small proportion of deuterium in a star’s gas. Once the deuterium in HOPS-68's core runs out and <em>deuterium fusion</em> stops, there will be no way to counteract gravity. The gas will compress further, and the core will reach a high enough temperature and density for typical hydrogen atoms in the core to fuse to helium.
         </p>
       </div>
       <div class="Properties">
@@ -152,7 +152,7 @@
       <div class="Dive">
         <h4>Dive Deeper</h4>
         <p>
-          <a data-toggle="modal" href="#flythroughModal">3D fly-through</a> of Spitzer Orion image
+          <a data-toggle="modal" href="#flythroughModal">3D fly-through</a> of Spitzer and Hubble Orion image
         </p>
       </div>
     </Description>
@@ -183,13 +183,13 @@
           Before the Sun reached its current stage, it was a <strong>protostar</strong> that formed from gas and dust. The protostar stayed in balance when it was fusing deuterium into helium-3.
         </p>
         <p>
-          There is only a small proportion of deuterium in a star’s gas. Once the deuterium in the Sun’s core ran out and <em>deuterium fusion</em> stopped, there was no outward radiation pressure to counteract gravity. Gravity compressed the gas further, and the core eventually reached a temperature where the more typical hydrogen atoms in the core could fuse to helium.
+          There is only a small proportion of deuterium in a star’s gas. Once the deuterium in the Sun’s core ran out and <em>deuterium fusion</em> stopped, there was no outward radiation pressure to counteract gravity. Gravity compressed the gas further, and the core eventually reached a temperature and density where the more typical hydrogen atoms in the core could fuse to helium.
         </p>
       </div>
       <div class="Process">
         <h4>What is happening now?</h4>
         <p>
-          Currently, hydrogen atoms in the core are fusing to helium. This fusion reaction releases the enormous amount of energy that allows the Sun to shine at visible wavelengths. The fusion also generates outward radiation pressure that balances the inward pressure created by gravity.
+          Currently, hydrogen atoms in the core are fusing to helium. This fusion reaction releases the enormous amount of energy that allows the Sun to shine at visible (and other) wavelengths. The fusion also generates outward radiation pressure that balances the inward pressure created by gravity.
         </p>
         <p>
           The Sun will stay in balance until the hydrogen in the core runs out, which models predict will happen in about 5 billion years.
@@ -247,7 +247,7 @@
           Sigma Orionis is a <strong>high-mass main-sequence star</strong>, an enormous glowing sphere of gas held together by gravity. It emits 42,000 times more power than our Sun, and it is so hot that it appears blue. Sigma Orionis is about 3,000,000 years old.
         </p>
         <p>
-          (The designation “sigma,” the 18th letter in the Greek alphabet, tells us that Sigma Orionis is the 18th brightest star in the constellation, as seen from Earth.)
+          (The designation “sigma,” the 18th letter in the Greek alphabet, tells us that Sigma Orionis is the 18th brightest star in the constellation, as seen by eye from Earth.)
         </p>
         <p class="constellation_para">
           <a class="orion_const constellation_link" href="#">See where the star Sigma Orionis appears in the constellation Orion</a>
@@ -259,13 +259,13 @@
           Before Sigma Orionis reached its current stage, it was a <strong>protostar</strong> that formed from gas and dust. The protostar maintained some balance while it was fusing deuterium into helium-3.
         </p>
         <p>
-          There is only a small proportion of deuterium in a star’s gas, so the deuterium inside the protostar ran out quickly. Gravity compressed the gas further, and the core eventually reached a temperature where the more typical hydrogen atoms in the core could fuse to helium.
+          There is only a small proportion of deuterium in a star’s gas, so the deuterium inside the protostar ran out quickly. Gravity compressed the gas further, and the core eventually reached a temperature and density where the more typical hydrogen atoms in the core could fuse to helium.
         </p>
       </div>
       <div class="Process">
         <h4>What is happening now?</h4>
         <p>
-          Currently hydrogen atoms in the core are fusing to helium. This fusion reaction releases the enormous amount of energy that allows the star to shine at visible wavelengths. The fusion also generates outward radiation pressure that balances the inward pressure created by gravity.
+          Currently hydrogen atoms in the core are fusing to helium. This fusion reaction releases the enormous amount of energy that allows the star to shine at visible (and other) wavelengths. The fusion also generates outward radiation pressure that balances the inward pressure created by gravity.
         </p>
         <p>
           The star will stay in balance until the hydrogen in the core runs out. But Sigma Orionis has so much mass that the fusion rate is much higher than in our Sun. In fact, Sigma Orionis is running through its fuel so quickly that it will live for only about 10 million years total (compared with 10 billion years for the Sun).
@@ -283,7 +283,7 @@
       <div class="After">
         <h4>What's next?</h4>
         <ul>
-          After Sigma Orionis runs out of hydrogen in its core, it will become a <strong>red supergiant</strong>. At this point, the star will grow significantly in size, and the core will reach sufficiently high temperatures to begin fusing helium into carbon, and eventually heavier elements as well, like neon, oxygen, silicon, and iron.
+          After Sigma Orionis runs out of hydrogen in its core, it will become a <strong>red supergiant</strong>. At this point, the star will grow significantly in size, and the core will reach sufficiently high temperatures and densities to begin fusing helium into carbon, and eventually heavier elements as well, like neon, oxygen, silicon, and iron.
         </ul>
       </div>
       <div class="Properties">
@@ -344,7 +344,7 @@
           This sudden burst of new energy pushed the outer layers of the star outward rapidly, causing Aldebaran to grow to many times its original size. The surface temperature cooled, reddening the color of the star.
         </p>
         <p>
-          Meanwhile, as the core continued to contract under its own gravity, it eventually became hot enough to begin fusing helium to carbon (which requires a higher temperature than fusing hydrogen to helium).
+          Meanwhile, as the core continued to contract under its own gravity, it eventually became hot enough to begin fusing helium to carbon (which requires a higher temperature and density than fusing hydrogen to helium).
         </p>
       </div>
       <div class="Elements">
@@ -363,7 +363,7 @@
       <div class="After">
         <h4>What's next?</h4>
         <p>
-          After the helium in the core runs out, nuclear fusion in the core will stop. Gravity will continue to compress the core of the star into a dense, bright object. Winds will blow the outer layers of gas outward from the core, leaving a <strong>planetary nebula + white dwarf</strong>.
+          After the helium in the core runs out, nuclear fusion in the core will stop. Gravity will continue to compress the core of the star into a dense, bright object. Winds will blow the outer layers of gas and dust outward from the core, leaving a <strong>planetary nebula + white dwarf</strong>.
         </p>
       </div>
       <div class="Properties">
@@ -493,7 +493,7 @@
           Before the Ring Nebula reached its current stage, it was a <strong>red giant</strong> that fused helium to carbon in its core.
         </p>
         <p>
-          After the helium in the core ran out, nuclear fusion could no longer occur for a star of this mass because there is not enough gravity to generate the high temperature in the core needed to fuse carbon into heavier elements. 
+          After the helium in the core ran out, nuclear fusion could no longer occur for a star of this mass because there is not enough gravity to generate the high temperature and density in the core needed to fuse carbon into heavier elements. 
         </p>
       </div>
       <div class="Process">
@@ -502,7 +502,7 @@
           Gravity continues to compress the core of the star, and eventually, more than half the mass of the original star will be collapsed into a remnant called a white dwarf. A white dwarf is similar in size to Earth, but has 200,000 times more mass. 
         </p>
         <p>
-          At the same time, winds are blowing the outer layers of gas away from the core, creating the gaseous features that surrounds the white dwarf.
+          At the same time, winds are blowing the outer layers of gas and dust away from the core, creating the gaseous features that surrounds the white dwarf.
         </p>
       </div>
       <div class="Elements">
