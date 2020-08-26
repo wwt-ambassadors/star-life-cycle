@@ -181,7 +181,39 @@ a, a:hover {
     color: #EFA928;
 }
 
+#schem_container {
+    position: absolute;
+    bottom: 25px;
+    right: 0px;
+    padding-right: 25px;
+    text-align: left;
+    pointer-events: none;
+}
 
+#schem_button {
+    text-align: right;
+    pointer-events: all;
+}
+
+#schem_text {
+    border: 3px solid #41BEEC;
+    border-radius: 15px;
+    padding: 5px;
+    font-size: 0.75em;
+}
+
+#schem_text:hover {
+    background-color: #41BEEC22;
+}
+
+#schem_text:active {
+    background-color: #41BEEC44;
+}
+
+#schem_text a {
+    color: #41BEEC;
+    text-decoration: none;
+}
 
 
 /* Target Descriptions */
