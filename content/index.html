@@ -54,6 +54,11 @@
                         <span class="smallcaps">pan:</span> click + drag (or use the <strong>W-A-S-D</strong> keys)
                     </div>
                 </div>
+                <div id="schem_container">
+                    <div id="schem_button">
+                        <span id="schem_text"><a data-toggle="modal" href="#schemModal">CYCLE SCHEMATIC</a></span>
+                    </div>
+                </div>
             </div>
         </div>
 		<div class="container-fluid bottom_container">
@@ -73,6 +78,7 @@
 				<i id="scroll_arrow" class="fas fa-arrow-down"></i>
 			</div>
 		</div>
+        
         
     				
 							
@@ -345,8 +351,45 @@
                 </div>
             </div>
         </div>
+        
+        <div class="modal fade" id="starCyclePeriodicTable">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h3 class="modal-title">The Periodic Table</h3>
+                        <h3 class="modal-title element">Origins</h3>
+                    </div>
+                    <div class="modal-body text-info">
+                        <img src="images/casa_life_periodic.jpg" class="object_banner" alt="Periodic Table Origins">
+                    </div>
+                    <div class="modal-footer">
+                        <span class="target_object_description">Credit: NASA Chandra</span>
+                        <button type="button" class="btn btn-info" data-dismiss="modal">close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
         <!-- end of element/periodic table modals -->
         
+        <div class="modal fade" id="stellarGobstopper">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h3 class="modal-title">Red Supergiant Interior</h3>
+                        <h3 class="modal-title element">Schematic</h3>
+                    </div>
+                    <div class="modal-body text-info">
+                        <img src="images/pre_snr.jpg" class="center" alt="Inside Red Supergiant">
+                    </div>
+                    <div class="modal-footer">
+                        <span class="target_object_description">Credit: NASA Chandra</span>
+                        <button type="button" class="btn btn-info" data-dismiss="modal">close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
         
         
         <!-- start of video modals -->
@@ -419,7 +462,26 @@
         </script>
 
         <!-- end of video modals -->
-        
+
+        <!-- beginning of schematic modal -->
+        <div class="modal fade" id="schemModal">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h3 class="modal-title">Star Life Cycle Schematic</h3>
+                    </div>
+                    <div class="modal-body">
+                        <img src="images/stars_lifecycle_full.jpg" alt="Schematic">                        
+
+                    </div>
+                    <div class="modal-footer">
+                        <span class="target_object_description">Credit: NASA/Goddard Space Flight Center</span>
+                        <button type="button" class="btn btn-info" data-dismiss="modal">close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end of target object description modal -->
 
 		<div id="colophon">
 			<div id="colo_left">
