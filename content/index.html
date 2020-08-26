@@ -372,11 +372,11 @@
             <div class="modal-dialog">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h3 class="modal-title">3D Fly-Through of Spitzer Orion Image</h3>
-                        <h3 class="modal-title element">Hubble</h3>
+                        <h3 class="modal-title">3D Fly-Through of Spitzer and Hubble Orion Image</h3>
                     </div>
                     <div class="modal-body text-info">
-                        <iframe src="https://media.stsci.edu/uploads/video_file/video_attachment/4542/STScI-H-v1804b-1280x720.mp4" poster="https://media.stsci.edu/uploads/video/preview_frame/1005/STScI-H-v1804b-d1280x720.png" controls></iframe>
+                        <!--changed this from "iframe" to "video" to disable autoplay (from https://stackoverflow.com/questions/31956221/how-to-disable-auto-play-for-local-video-in-iframe). Unfortunately the sizing is now wonky and I can't figure out how to make it scale properly, so I've hard-coded the size here, which means it doesn't resize properly at different screen resolutions-->
+                        <video height="430" src="https://media.stsci.edu/uploads/video_file/video_attachment/4542/STScI-H-v1804b-1280x720.mp4" poster="https://media.stsci.edu/uploads/video/preview_frame/1005/STScI-H-v1804b-d1280x720.png" controls></video>
                     </div>
                     <div class="modal-footer">
                         <span class="target_object_description"></span>
@@ -403,6 +403,21 @@
                 </div>
             </div>
         </div>
+
+        <!--Code to stop videos when windows are closed (from https://stackoverflow.com/questions/13598423/stop-all-playing-iframe-videos-on-click-a-link-javascript)-->
+        <script>
+            $("button").click(function() {
+                $("iframe").each(function() {
+                    var src= $(this).attr('src');
+                    $(this).attr('src',src);
+                });
+                $("video").each(function() {
+                    var src= $(this).attr('src');
+                    $(this).attr('src',src);
+                });
+            })
+        </script>
+
         <!-- end of video modals -->
         
 
