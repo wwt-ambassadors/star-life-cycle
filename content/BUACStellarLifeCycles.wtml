@@ -418,7 +418,7 @@
           Meanwhile, gravity continued to contract the core and heat it up. The core eventually became hot enough to begin fusing helium to carbon, allowing the star to continue shining. The radiation pressure produced by this new fusion process also pushes against the inward pull of gravity, keeping the star in balance for a short period of time.
         </p>
         <p>
-          When high-mass stars like Betelgeuse run out of helium in the core, there is enough gravity to keep contracting the core and heating it up further. This allows the star to fuse heavier and heavier elements in the core, including neon, oxygen, silicon, and iron. As fusion continues, successive shells of different elements ignite outside the core, and the star ends up layered like an onion, <a href="https://chandra.cfa.harvard.edu/graphics/xray_astro/pre_snr.jpg" target="_new">as shown in this image</a>.
+          When high-mass stars like Betelgeuse run out of helium in the core, there is enough gravity to keep contracting the core and heating it up further. This allows the star to fuse heavier and heavier elements in the core, including neon, oxygen, silicon, and iron. As fusion continues, successive shells of different elements ignite outside the core, and the star ends up layered like an onion, <a data-toggle="modal" href="#stellarGobstopper">as shown in this image</a>
         </p>
       </div>
       <div class="Elements">
@@ -448,12 +448,6 @@
           <li><strong>Mass:</strong> 10-20 solar masses (2-4 &#215; 10<sup>31</sup> kg)</li>
           <li><strong>Temperature (surface):</strong> 3,300&#176;C</li>
         </ul>
-      </div>
-      <div class="Dive">
-        <h4>Dive deeper</h4>
-        <p>
-          <a href="https://www.astro.uu.se/~bf/movie/dst35gm04n26/movie.html" target="_new">Dynamic simulation of a red supergiant</a>
-        </p>
       </div>
     </Description>
   </Place>
@@ -583,13 +577,13 @@
       <div class="Process">
         <h4>What is happening now?</h4>
         <p>
-          When the outer layers of the star hit the dense core, an explosion blew apart the outer layers of the star. The immense amount of energy from this explosion fueled a process called <em>rapid neutron capture</em>, (or <em>r-process</em>) which created elements shown in red (that were not made during the red supergiant phase) on this <a href="https://chandra.si.edu/photo/2017/casa_life/casa_life_periodic.jpg" target="_new">periodic table</a>.
+          When the outer layers of the star hit the dense core, an explosion blew apart the outer layers of the star. The immense amount of energy from this explosion fueled a process called <em>rapid neutron capture</em>, (or <em>r-process</em>) which created elements shown in red (that were not made during the red supergiant phase) on this <a data-toggle="modal" href="#starCyclePeriodicTable">periodic table</a>.
         </p>
       </div>
       <div class="Elements">
         <h4>Element formation</h4>
         <p>
-          At the time of the supernova explosion, rapid neutron capture created elements shown in red on this <a href="https://chandra.si.edu/photo/2017/casa_life/casa_life_periodic.jpg" target="_new">periodic table</a>.
+          At the time of the supernova explosion, rapid neutron capture created elements shown in red on this <a data-toggle="modal" href="#starCyclePeriodicTable">periodic table</a>
         </p>
         <p>
           New elements produced during the star's lifetime and during the explosion have now been released into space, where they can be recycled into new solar systems.

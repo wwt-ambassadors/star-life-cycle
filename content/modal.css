@@ -38,8 +38,12 @@
     color: white;
 }
 
+
 .modal img{
-    width: 100%;
+    height: calc(60vh);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .target_object_details{
@@ -62,5 +66,12 @@
 .video_modal iframe {
     width: 100%;
     height: calc(60vh);
+}
+
+video {
+    height: calc(60vh);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
