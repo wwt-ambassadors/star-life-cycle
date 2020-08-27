@@ -236,9 +236,14 @@ a, a:hover {
     border-bottom: dotted #44FF44 2px;
 }
 
-.begin_ss {
-    margin-top: 1em;
-    text-align: left;
+.begin_ss_h4 {
+    margin: 25px 15px 0.3rem 15px;
+	color: #EFA928;  /* used to be #8AFF8A */
+    font-size: calc(10px + 1.25vw);    
+}
+
+.begin_ss_p {
+    margin: 0px 15px 0.3rem 15px;
 }
 
 #description_container {
