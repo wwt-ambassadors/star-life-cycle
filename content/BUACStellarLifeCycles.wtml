@@ -21,10 +21,7 @@
       <div class="What">
         <h4>What is it?</h4>
         <p>
-          The Orion Nebula is a <strong>star-forming nebula</strong>, a cloud of gas and dust where new stars are being born. A group of hot, young stars within the cloud lights up much of the nebula. The embedded young stars transfer energy to the gas, which causes the atoms in the gas to give off light at very specific wavelengths. Astronomers use this light to identify what elements are present in the gas. For example, red light emitted from the cloud indicates that there is hydrogen present. Green light indicates oxygen.
-        </p>
-        <p>
-          Other parts of the cloud are cold and dense and appear dark.
+          The Orion Nebula is a <strong>star-forming nebula</strong>, a cloud of gas and dust where new stars are being born. A group of hot, young stars within the cloud lights up much of the nebula. Other parts of the cloud are cold and dense and appear dark.
         </p>
         <p>
           You can see the Orion Nebula with the unaided eye from a dark sky. It appears as the tip of a sword, below the middle star of Orion’s belt in the constellation Orion.
@@ -36,7 +33,7 @@
       <div class="Before">
         <h4>Where did it come from?</h4>
         <p>
-          Gas and dust are present throughout our galaxy. Most of the gas is made of hydrogen and helium, but it also includes heavier elements that were made inside stars. Stars release the enriched gas into space when they become <strong>planetary nebulae</strong> or <strong>supernovae</strong>. Gravity eventually brings the gas and dust together into a large cloud where new stars can form.
+          Gas and dust are present throughout our galaxy. Most of the gas is made of hydrogen and helium, but it also includes heavier elements that were made inside stars. Stars release the enriched gas into space when they become <strong>planetary nebulae</strong> or <strong>supernovae</strong>. Stellar winds and gravity eventually bring the gas and dust together into clouds where new stars can form.
         </p>
       </div>
       <div class="Process">
@@ -48,13 +45,7 @@
       <div class="Elements">
         <h4>Element formation</h4>
         <p>
-          Small amounts of new elements can form in the nebula if high energy particles collide with atoms and break them apart. This process is called cosmic ray fission. Beryllium is an example of an element that forms from cosmic ray fission.
-        </p>
-      </div>
-      <div class="After">
-        <h4>What's next?</h4>
-        <p>
-          The Orion Nebula will continue to form new <strong>protostars</strong> until most of the gas and dust has either formed into a star or been ejected from the nebula. At that point, the stars will have formed into a star cluster, laced with wisps of gas and dust where the star-forming nebula had been.
+          Small amounts of new elements can form in the nebula if high energy particles collide with atoms and break them apart. This process is called cosmic ray fission. Beryllium is an example of an element that forms from cosmic ray fission. Others are shown in purple on this <a data-toggle="modal" href="#starCyclePeriodicTable">periodic table</a>.
         </p>
       </div>
       <div class="Properties">
@@ -68,9 +59,10 @@
       </div>
       <div class="Dive">
         <h4>Dive deeper</h4>
-        <p>
-          <a data-toggle="modal" href="#astarisbornModal">A Star Is Born</a>
-        </p>
+        <ul>
+          <li><a data-toggle="modal" href="#astarisbornModal">A Star Is Born</a></li>
+          <li>What makes the nebula so colorful? The embedded young stars transfer energy to the gas, which causes the atoms in the gas to give off light at very specific wavelengths. Astronomers use this light to identify what elements are present in the gas. For example, red light emitted from the cloud indicates that there is hydrogen present. Green light indicates oxygen.</li>
+        </ul>
       </div>
     </Description>
   </Place>
@@ -107,19 +99,16 @@
       <div class="Before">
         <h4>Where did it come from?</h4>
         <p>
-          Before HOPS-68 reached its current stage, it was a relatively dense region of gas and dust within the Orion <strong>star-forming nebula</strong>. Gravity pulled together more gas and dust from the surrounding area into a cold, dense clump that would become HOPS-68.
-        </p>
-        <p>
-          Gravity continued to compress the gas and dust, until the object's core became hot enough to start a process called <em>deuterium fusion</em>, which occurs in a new protostar's core.
+          Before HOPS-68 reached its current stage, it was a relatively dense region of gas and dust within the Orion <strong>star-forming nebula</strong>. Gravity pulled together more gas and dust from the surrounding area into a cold, dense clump that would become HOPS-68. As gravity continued to squeeze the gas and dust, the temperature and density in the core became high enough to begin a process called <em>deuterium fusion</em>.
         </p>
       </div>
       <div class="Process">
         <h4>What is happening now?</h4>
         <p>
-          Currently, <em>deuterium fusion</em> is responsible for fusing an uncommon type of hydrogen (called deuterium, which has 1 neutron instead of the typical 0) into an uncommon type of helium (called helium-3, which has only 1 neutron instead of the typical 2). 
+          In <em>deuterium fusion</em>, an uncommon type of hydrogen (called deuterium, which has 1 neutron instead of the typical 0) is fused into an uncommon type of helium (called helium-3, which has only 1 neutron instead of the typical 2), releasing energy.
         </p>
         <p>
-          The radiation pressure created by <em>deuterium fusion</em> can counteract the inward force of the gravity, and the object can remain stable for some time. More gas and dust can continue to collect onto the object, allowing it to grow in mass. Some of this gas and dust might eventually become planets, and someday form into life on those planets.
+          The radiation pressure created by <em>deuterium fusion</em> can counteract the inward force of gravity, and the object can remain stable for some time. More gas and dust can continue to collect onto the object, allowing it to grow in mass. Some of this gas and dust might eventually become planets, and someday form into life on those planets.
         </p>
         <p>
           The surrounding dust blocks visible light from the protostar from reaching us. However, the dust also absorbs the energy emitted by the object and re-radiates it at infrared wavelengths. Therefore, this object can be observed by telescopes that detect infrared light, like the Spitzer Space Telescope.
@@ -128,17 +117,11 @@
       <div class="Elements">
         <h4>Element formation</h4>
         <p>
-          <em>Deuterium fusion</em> is responsible for fusing an uncommon type of hydrogen (deuterium) into an uncommon type of helium (helium-3). (This process happens at a lower temperature and density than is needed to fuse typical hydrogen to helium.)
+          <em>Deuterium fusion</em> is the fusing of an uncommon type of hydrogen (deuterium) into an uncommon type of helium (helium-3). (This process happens at a lower temperature and density than is needed to fuse typical hydrogen to helium.)
         </p>
         <ul>
           <li><a data-toggle="modal" href="#deuteriumModal">deuterium</a> &#8594; <a data-toggle="modal" href="#helium-3Modal">helium-3</a></li>
         </ul>
-      </div>
-      <div class="After">
-        <h4>What's next?</h4>
-        <p>
-          There is only a small proportion of deuterium in a star’s gas. Once the deuterium in HOPS-68's core runs out and <em>deuterium fusion</em> stops, there will be no way to counteract gravity. The gas will compress further, and the core will reach a high enough temperature and density for typical hydrogen atoms in the core to fuse to helium.
-        </p>
       </div>
       <div class="Properties">
         <h4>Properties / Characteristics</h4>
@@ -164,23 +147,23 @@
       <Target>sunstar</Target>
       <ThumbnailUrl>http://www.worldwidetelescope.org/wwtweb/thumbnail.aspx?name=sun</ThumbnailUrl>
     </ImageSet>
-    <Description Title="A main-sequence star (low-mass)">
+    <Description Title="A main-sequence star">
       <div class="Thumbnail">
         Sun
       </div>
       <div class="Name">
-        <h3>Our Sun <span class="stagename">main-sequence star (low-mass)</span></h3>
+        <h3>Our Sun <span class="stagename">main-sequence star</span></h3>
       </div>
       <div class="What">
         <h4>What is it?</h4>
         <p>
-          Our Sun is a <strong>low-mass main-sequence star</strong>, a large glowing sphere of gas held together by gravity. It is the center of our Solar System, and it shines its light on all the planets, including Earth, and other objects like moons and asteroids. Our Sun is about 5 billion years old, and models predict that it will spend another 5 billion years in its current stage.
+          Our Sun is a <strong>main-sequence star</strong>, a large glowing sphere of gas held together by gravity. It is the center of our Solar System, and it shines its light on all the planets, including Earth, and other objects like moons and asteroids. Our Sun is about 5 billion years old, and models predict that it will spend another 5 billion years in its current stage.
         </p>
       </div>
       <div class="Before">
         <h4>Where did it come from?</h4>
         <p>
-          Before the Sun reached its current stage, it was a <strong>protostar</strong> that formed from gas and dust. The protostar stayed in balance when it was fusing deuterium into helium-3.
+          Before the Sun reached its current stage, it was a <strong>protostar</strong> that formed from gas and dust, fusing deuterium into helium-3 in its core.
         </p>
         <p>
           There is only a small proportion of deuterium in a star’s gas. Once the deuterium in the Sun’s core ran out and <em>deuterium fusion</em> stopped, there was no outward radiation pressure to counteract gravity. Gravity compressed the gas further, and the core eventually reached a temperature and density where the more typical hydrogen atoms in the core could fuse to helium.
@@ -203,12 +186,6 @@
         <ul>
           <li><a data-toggle="modal" href="#hydrogenModal">H</a> &#8594; <a data-toggle="modal" href="#heliumModal">He</a></li>
         </ul>
-      </div>
-      <div class="After">
-        <h4>What's next?</h4>
-        <p>
-          After the Sun runs out of hydrogen in its core, it will become a <strong>red giant</strong>. At this point, the star will grow significantly in size, and the core will become hot enough to begin fusing helium into carbon.
-        </p>
       </div>
       <div class="Properties">
         <h4>Properties / Characteristics</h4>
@@ -234,17 +211,17 @@
       <Target>sigmaorionis</Target>
       <ThumbnailUrl>images/sigma_orionis_thumbnail.png</ThumbnailUrl>
     </ImageSet>
-    <Description Title="A main sequence star (high-mass)">
+    <Description Title="A massive main-sequence star">
       <div class="Thumbnail">
         Sigma Orionis
       </div>
       <div class="Name">
-        <h3>Sigma Orionis <span class="stagename">main-sequence star (high-mass)</span></h3>
+        <h3>Sigma Orionis <span class="stagename">massive main-sequence star</span></h3>
       </div>
       <div class="What">
         <h4>What is it?</h4>
         <p>
-          Sigma Orionis is a <strong>high-mass main-sequence star</strong>, an enormous glowing sphere of gas held together by gravity. It emits 42,000 times more power than our Sun, and it is so hot that it appears blue. Sigma Orionis is about 3,000,000 years old.
+          Sigma Orionis is a <strong>massive main-sequence star</strong>, an enormous glowing sphere of gas held together by gravity. It emits 42,000 times more power than our Sun, and it is so hot that it appears blue. Sigma Orionis is about 3,000,000 years old.
         </p>
         <p>
           (The designation “sigma,” the 18th letter in the Greek alphabet, tells us that Sigma Orionis is the 18th brightest star in the constellation, as seen by eye from Earth.)
@@ -278,12 +255,6 @@
         </p>
         <ul>
           <li><a data-toggle="modal" href="#hydrogenModal">H</a> &#8594; <a data-toggle="modal" href="#heliumModal">He</a></li>
-        </ul>
-      </div>
-      <div class="After">
-        <h4>What's next?</h4>
-        <ul>
-          After Sigma Orionis runs out of hydrogen in its core, it will become a <strong>red supergiant</strong>. At this point, the star will grow significantly in size, and the core will reach sufficiently high temperatures and densities to begin fusing helium into carbon, and eventually heavier elements as well, like neon, oxygen, silicon, and iron.
         </ul>
       </div>
       <div class="Properties">
@@ -332,19 +303,19 @@
       <div class="Before">
         <h4>Where did it come from?</h4>
         <p>
-          Before Aldebaran reached its current stage, it was a <strong>low-mass main-sequence star</strong>, just a little bit more massive than our Sun. As a main-sequence star, it fused hydrogen in its core to helium, but the hydrogen in its core has run out, and fusion temporarily stopped. 
+          Before Aldebaran reached its current stage, it was a <strong>Sun-like main-sequence star</strong>, just a little bit more massive than our Sun. As a main-sequence star, it fused hydrogen in its core to helium, but the hydrogen in its core has run out, and fusion temporarily stopped. 
         </p>
         <p>
           Without hydrogen fusion, Aldebaran stopped generating outward pressure to balance against the inward pull of gravity, causing more gas to fall inward toward the core. This triggered a new, thin layer of gas just outside the star’s core to fuse hydrogen to helium.
+        </p>
+        <p>
+          This sudden burst of new energy pushed the outer layers of the star outward rapidly, causing Aldebaran to grow to many times its original size. The surface temperature cooled, reddening the color of the star.
         </p>
       </div>
       <div class="Process">
         <h4>What is happening now?</h4>
         <p>
-          This sudden burst of new energy pushed the outer layers of the star outward rapidly, causing Aldebaran to grow to many times its original size. The surface temperature cooled, reddening the color of the star.
-        </p>
-        <p>
-          Meanwhile, as the core continued to contract under its own gravity, it eventually became hot enough to begin fusing helium to carbon (which requires a higher temperature and density than fusing hydrogen to helium).
+          While the outer layers of the star were expanding, the core continued to contract under its own gravity. It eventually became hot and dense enough to begin fusing helium to carbon (which requires a higher temperature and density than fusing hydrogen to helium). The energy released by fusion prevents gravity from compressing the star further, and it remains in balance for a while.
         </p>
       </div>
       <div class="Elements">
@@ -357,13 +328,7 @@
           <li><a data-toggle="modal" href="#hydrogenModal">H</a> &#8594; <a data-toggle="modal" href="#heliumModal">He</a> (in shell just outside core)</li>
         </ul>
         <p>
-          (Many other elements heavier than iron are being created in the outer layers of the red giant through something called the <em>slow neutron-capture process</em>, or just <em>s-process</em>.)
-        </p>
-      </div>
-      <div class="After">
-        <h4>What's next?</h4>
-        <p>
-          After the helium in the core runs out, nuclear fusion in the core will stop. Gravity will continue to compress the core of the star into a dense, bright object. Winds will blow the outer layers of gas and dust outward from the core, leaving a <strong>planetary nebula + white dwarf</strong>.
+          Many other elements heavier than iron (shown in yellow-orange on this <a data-toggle="modal" href="#starCyclePeriodicTable">periodic table</a>) are being created in the outer layers of the red giant through something called the <em>slow neutron-capture process</em>, or just <em>s-process</em>.
         </p>
       </div>
       <div class="Properties">
@@ -403,22 +368,22 @@
       <div class="Before">
         <h4>Where did it come from?</h4>
         <p>
-          Before Betelgeuse reached its current stage, it was a <strong>high-mass main-sequence star</strong>, 10 to 20 times more massive than our Sun. As a main-sequence star, it fused hydrogen in its core into helium, but the hydrogen in the core has run out.
+          Before Betelgeuse reached its current stage, it was a <strong>massive main-sequence star</strong>, 10 to 20 times more massive than our Sun. As a main-sequence star, it fused hydrogen in its core into helium, but the hydrogen in the core has run out.
         </p>
         <p>
           Without hydrogen fusion, Betelgeuse stopped generating outward pressure to balance against the inward pull of gravity, causing more gas to fall inward toward the core. This triggered a new, thin layer of gas just outside the star’s core to fuse hydrogen to helium.
+        </p>
+        <p>
+          This sudden burst of new energy pushed the outer layers of the star out rapidly, causing it to grow to many times its original size. The surface temperature cooled, and the star turned from blue to red.
         </p>
       </div>
       <div class="Process">
         <h4>What is happening now?</h4>
         <p>
-          This sudden burst of new energy pushed the outer layers of the star out rapidly, causing it to grow to many times its original size. The surface temperature cooled, and the star turned from white to red.
+          While the outer layers of the star were expanding, gravity continued to contract the core, heating it up. The core eventually became hot and dense enough to begin fusing helium to carbon, allowing the star to continue shining. The radiation pressure produced by this new fusion process also pushes against the inward pull of gravity, keeping the star in balance for a short period of time.
         </p>
         <p>
-          Meanwhile, gravity continued to contract the core and heat it up. The core eventually became hot enough to begin fusing helium to carbon, allowing the star to continue shining. The radiation pressure produced by this new fusion process also pushes against the inward pull of gravity, keeping the star in balance for a short period of time.
-        </p>
-        <p>
-          When high-mass stars like Betelgeuse run out of helium in the core, there is enough gravity to keep contracting the core and heating it up further. This allows the star to fuse heavier and heavier elements in the core, including neon, oxygen, silicon, and iron. As fusion continues, successive shells of different elements ignite outside the core, and the star ends up layered like an onion, <a data-toggle="modal" href="#stellarGobstopper">as shown in this image</a>
+          When high-mass stars like Betelgeuse run out of helium in the core, there is enough gravity to keep contracting the core and heating it up further. This allows the star to fuse heavier and heavier elements in the core, including neon, oxygen, silicon, and iron. As fusion continues, successive shells of different elements ignite outside the core, and the star ends up layered like an onion, <a data-toggle="modal" href="#stellarGobstopper">as shown in this image</a>.
         </p>
       </div>
       <div class="Elements">
@@ -433,12 +398,6 @@
           <li><a data-toggle="modal" href="#oxygenModal">O</a> &#8594; <a data-toggle="modal" href="#siliconModal">Si</a> (and some <a data-toggle="modal" href="#sulfurModal">S</a> and <a data-toggle="modal" href="#phosphorusModal">P</a>)</li>
           <li><a data-toggle="modal" href="#siliconModal">Si</a> &#8594; <a data-toggle="modal" href="#ironModal">Fe</a> (and some <a data-toggle="modal" href="#nickelModal">Ni</a>)</li>
         </ul>
-      </div>
-      <div class="After">
-        <h4>What's next?</h4>
-        <p>
-          After the core runs out of silicon, no more fusion processes will occur, because fusion reactions with iron do not release energy. Gravity will compress the star into an incredibly small, dense object until the outer layers hit the core. At this point, the outer layers will explode away from the star, leaving a <strong>supernova remnant + neutron star</strong>.
-        </p>
       </div>
       <div class="Properties">
         <h4>Properties / Characteristics</h4>
@@ -472,7 +431,7 @@
       <div class="What">
         <h4>What is it?</h4>
         <p>
-          The Ring Nebula is a colorful, circular cloud of gas and dust surrounding a very bright white star. Long ago astronomers observed these objects, and because some nebulas looked round like a planet, astronomers called them <strong>planetary nebula</strong>. These nebulas are unrelated to planets and can have very distinct shapes too.
+          The Ring Nebula is a colorful, circular cloud of gas and dust surrounding a very bright white star. Long ago astronomers observed these objects, and because some nebulas looked round like a planet, astronomers called them <strong>planetary nebula</strong>. These nebulas are unrelated to planets and can have non-circular shapes too.
         </p>
         <p>
           The star in the middle of the nebula has a surface temperature 20 times hotter than that of our Sun and is 200 times as bright. This star, on its way to becoming a <strong>white dwarf</strong>, is mostly carbon, surrounded by shells of helium and hydrogen.
@@ -484,7 +443,7 @@
       <div class="Before">
         <h4>Where did it come from?</h4>
         <p>
-          Before the Ring Nebula reached its current stage, it was a <strong>red giant</strong> that fused helium to carbon in its core.
+          Before the Ring Nebula reached its current stage, it was a <strong>red giant</strong> similar in mass to our Sun that fused helium to carbon in its core.
         </p>
         <p>
           After the helium in the core ran out, nuclear fusion could no longer occur for a star of this mass because there is not enough gravity to generate the high temperature and density in the core needed to fuse carbon into heavier elements. 
@@ -568,31 +527,31 @@
           Before the Crab Nebula reached its current stage, it was a <strong>red supergiant</strong> that fused helium to carbon, then carbon to neon, then neon to oxygen, then oxygen to silicon, then silicon to iron in its core.
         </p>
         <p>
-          Fusion reactions with iron do not release energy, so once the silicon in the core ran out, no more fusion processes could occur, and there was no longer any way to counteract the immense gravity of the star. Gravity compressed the core of the star, and eventually, an object more massive than our Sun was compressed into the size of a city!
-        </p>
-        <p>
-          Meanwhile, the outer layers of the star were also falling rapidly inward due to gravity...
-        </p>
+        Fusion reactions with iron do not release energy, so once the silicon in the core ran out, no more fusion processes could occur, and there was no longer any way to counteract the immense gravity of the star.
+        </p> 
       </div>
       <div class="Process">
         <h4>What is happening now?</h4>
         <p>
-          When the outer layers of the star hit the dense core, an explosion blew apart the outer layers of the star. The immense amount of energy from this explosion fueled a process called <em>rapid neutron capture</em>, (or <em>r-process</em>) which created elements shown in orange-red (that were not made during the red supergiant phase) on this <a data-toggle="modal" href="#starCyclePeriodicTable">periodic table</a>.
+          Gravity compressed the core of the star, and eventually, an object more massive than our Sun was compressed into the size of a city! This object is called a <strong>neutron star</strong>, which you can see as a small dot in the middle of the nebula.
+        </p>
+        <p>
+          Meanwhile, the outer layers of the star were also falling rapidly inward due to gravity...
+        </p>
+        <p>
+          When the outer layers of the star hit the dense core, an explosion blew apart the outer layers of the star. The chaotic-looking gas in the nebula is called a <strong>supernova remnant</strong>, and it continues to expand outward from the star.
         </p>
       </div>
       <div class="Elements">
         <h4>Element formation</h4>
         <p>
-          At the time of the supernova explosion, rapid neutron capture created elements shown in orange-red on this <a data-toggle="modal" href="#starCyclePeriodicTable">periodic table</a>
-        </p>
-        <p>
-          New elements produced during the star's lifetime and during the explosion have now been released into space, where they can be recycled into new stars and planetary systems.
+          The immense amount of energy from the supernova explosion fueled a process called <em>rapid neutron capture</em>, (or <em>r-process</em>) which created elements shown in orange-red (that were not made during the red supergiant phase) on this <a data-toggle="modal" href="#starCyclePeriodicTable">periodic table</a>.
         </p>
       </div>
       <div class="After">
         <h4>What's next?</h4>
         <p>
-          The gas and dust that has been released by the stellar explosion will disperse into space. Some of this material will accumulate with other gas and dust to form a new <strong>star-forming nebula</strong>, from which new stars can form and emerge.
+          The gas and dust that has been released by the stellar explosion (including elements produced during the star's lifetime and during the explosion) will disperse into space. Some of this material will accumulate with other gas and dust to form a new <strong>star-forming nebula</strong>, from which new stars and planetary systems can form and emerge.
         </p>
       </div>
       <div class="Properties">
