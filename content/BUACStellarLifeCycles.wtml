@@ -269,7 +269,7 @@
       <div class="Dive">
         <h4>Dive deeper</h4>
         <p>
-          <a href="https://viewspace.org/video_library/videos/202-stars_glance_720-322871404?tags=461" target="_new">Colors of stars</a>
+          <a data-toggle="modal" href="#StarColors">Star Color and Temperature</a>
         </p>
       </div>
     </Description>
@@ -495,7 +495,7 @@
       <div class="Dive">
         <h4>Dive deeper</h4>
         <p>
-          <a data-toggle="modal" href="#PlanetaryNebulaAha">Planetary Nebula</a>
+          <a data-toggle="modal" href="#PlanetaryNebulaAha">The Fate of the Sun</a>
         </p>
       </div>
     </Description>
