@@ -556,6 +556,14 @@
     }
 
   })
+  
+  // All for closing of modal or popups with 'esc' key
+  $(document).keydown(function(e) {
+    var key = e.which;
+    if (key == 27) {
+      $(".modal").modal('hide');
+    }
+  })
     
     
 })();
