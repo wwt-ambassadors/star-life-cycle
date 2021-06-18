@@ -13,6 +13,8 @@
   var curr_dec = null;
   var curr_FOV = null;
 
+  // The WWT `Folder` instance for our WTML collection
+  var wwt_folder = null;
 
   // function to start off with when $(document).ready() takes off
   function initialize() {
@@ -45,7 +47,7 @@
 
     
     // (variables defined inside a function are not known to other functions)
-    loadWtml(function (folder, xml) {
+    loadWtml(function (xml) {
 
       // store each of the Place objects from the WTML file in places variables
       var places = $(xml).find('Place');
@@ -165,7 +167,7 @@
             curr_dec = null;
             curr_FOV = null;
 
-            $.each(folder.get_children(), function (i, wwtplace) {
+            $.each(wwt_folder.get_children(), function (i, wwtplace) {
               if (wwtplace.get_name() == place.attr('Name')) {
                 wwt_ctl.gotoTarget3(wwtplace.get_camParams(), false, is_dblclick);
               }
@@ -230,7 +232,7 @@
           if (curr_clasification == 'SolarSystem') {
 
             // should copy earlier code exactly
-            $.each(folder.get_children(), function (i, wwtplace) {
+            $.each(wwt_folder.get_children(), function (i, wwtplace) {
               if (wwtplace.get_name() == curr_name) {
                 wwt_ctl.gotoTarget3(wwtplace.get_camParams(), false, true);
               }
@@ -326,7 +328,7 @@
         dataType: 'xml',
         cache: false,
         success: function (xml) {
-          callback(wwt_si._imageFolder, xml)
+          callback(xml)
         },
         error: function (a, b, c) {
           console.log({ a: a, b: b, c: c });
@@ -335,8 +337,8 @@
     }
 
     var wtmlPath = "BUACStellarLifeCycles.wtml";
-    wwt_si.loadImageCollection(wtmlPath);
-    console.log("Loaded Image Collection");
+    wwt_folder = wwtlib.Wtml.getWtmlFile(wtmlPath, function () { }, false);
+    console.log("Loading Image Collection");
     getWtml();
     setTimeout(function () {
       getWtml();
